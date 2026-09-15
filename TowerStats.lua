@@ -1,5 +1,5 @@
-return {
-    ["Freddy"] = {
+{
+    "Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://16620053009",
         "Rarity": "Uncommon",
@@ -38,7 +38,7 @@ return {
             }
         ]
     },
-    ["Chica"] = {
+    "Chica": {
         "Type": "Explosion",
         "Image": "rbxassetid://16620303027",
         "Rarity": "Uncommon",
@@ -76,7 +76,7 @@ return {
             }
         ]
     },
-    ["Foxy"] = {
+    "Foxy": {
         "Type": "Melee",
         "Image": "rbxassetid://16620218689",
         "Rarity": "Rare",
@@ -115,7 +115,7 @@ return {
             }
         ]
     },
-    ["Bonnie"] = {
+    "Bonnie": {
         "Type": "Continuous",
         "Image": "rbxassetid://16620268084",
         "Rarity": "Mythic",
@@ -154,84 +154,84 @@ return {
             }
         ]
     },
-    ["Withered Chica"] = {
-            "Type": "Single",
-            "Image": "rbxassetid://16632209265",
-            "Rarity": "Rare",
-            "PlacePrice": 800,
-            "Max": 2,
-            "hitboxOffset": {
-                "X": 0,
-                "Y": 0,
-                "Z": 0
-            },
-            "Upgrades": [
-                {
-                    "Price": 0,
-                    "Range": 10,
-                    "Damage": 250,
-                    "Cooldown": 1
-                },
-                {
-                    "Price": 1200,
-                    "Range": 12,
-                    "Damage": 375,
-                    "Cooldown": 1
-                },
-                {
-                    "Price": 1500,
-                    "Range": 15,
-                    "Damage": 500,
-                    "Cooldown": 1
-                },
-                {
-                    "Price": 2500,
-                    "Range": 15,
-                    "Damage": 625,
-                    "Cooldown": 0.9
-                }
-            ]
+    "Withered Chica": {
+        "Type": "Single",
+        "Image": "rbxassetid://16632209265",
+        "Rarity": "Rare",
+        "PlacePrice": 800,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
         },
-    ["Withered Foxy"] = {
-            "Type": "Dual",
-            "Image": "rbxassetid://16632135968",
-            "Rarity": "Epic",
-            "PlacePrice": 1200,
-            "Max": 3,
-            "hitboxOffset": {
-                "X": 0,
-                "Y": 0,
-                "Z": 0
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 10,
+                "Damage": 250,
+                "Cooldown": 1
             },
-            "Offset": 0.7,
-            "Upgrades": [
-                {
-                    "Price": 0,
-                    "Range": 15,
-                    "Damage": 250,
-                    "Cooldown": 1
-                },
-                {
-                    "Price": 1800,
-                    "Range": 18,
-                    "Damage": 375,
-                    "Cooldown": 1
-                },
-                {
-                    "Price": 3000,
-                    "Range": 20,
-                    "Damage": 500,
-                    "Cooldown": 0.75
-                },
-                {
-                    "Price": 5000,
-                    "Range": 20,
-                    "Damage": 750,
-                    "Cooldown": 0.75
-                }
-            ]
+            {
+                "Price": 1200,
+                "Range": 12,
+                "Damage": 375,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1500,
+                "Range": 15,
+                "Damage": 500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 2500,
+                "Range": 15,
+                "Damage": 625,
+                "Cooldown": 0.9
+            }
+        ]
+    },
+    "Withered Foxy": {
+        "Type": "Dual",
+        "Image": "rbxassetid://16632135968",
+        "Rarity": "Epic",
+        "PlacePrice": 1200,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
         },
-    ["Withered Freddy"] = {
+        "Offset": 0.7,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 250,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1800,
+                "Range": 18,
+                "Damage": 375,
+                "Cooldown": 1
+            },
+            {
+                "Price": 3000,
+                "Range": 20,
+                "Damage": 500,
+                "Cooldown": 0.75
+            },
+            {
+                "Price": 5000,
+                "Range": 20,
+                "Damage": 750,
+                "Cooldown": 0.75
+            }
+        ]
+    },
+    "Withered Freddy": {
         "Type": "Continuous",
         "Image": "rbxassetid://16632239120",
         "Rarity": "Mythic",
@@ -269,7 +269,7 @@ return {
             }
         ]
     },
-    ["Withered Bonnie"] = {
+    "Withered Bonnie": {
         "Type": "Single",
         "Image": "rbxassetid://16632217188",
         "Rarity": "Secret",
@@ -308,7 +308,7 @@ return {
             }
         ]
     },
-    ["Shadow Bonnie"] = {
+    "Shadow Bonnie": {
         "Type": "AOE",
         "Image": "rbxassetid://16781197179",
         "Rarity": "Nightmare",
@@ -346,7 +346,7 @@ return {
             }
         ]
     },
-    ["Toy Freddy"] = {
+    "Toy Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://16781095520",
         "Rarity": "Rare",
@@ -385,7 +385,7 @@ return {
             }
         ]
     },
-    ["Toy Bonnie"] = {
+    "Toy Bonnie": {
         "Type": "Dual",
         "Image": "rbxassetid://16780983603",
         "Rarity": "Epic",
@@ -423,7 +423,7 @@ return {
             }
         ]
     },
-    ["Toy Chica"] = {
+    "Toy Chica": {
         "Type": "Explosion",
         "Image": "rbxassetid://16781017510",
         "Rarity": "Epic",
@@ -462,7 +462,7 @@ return {
             }
         ]
     },
-    ["Mangle"] = {
+    "Mangle": {
         "Type": "Explosion",
         "Image": "rbxassetid://16781119726",
         "Rarity": "Secret",
@@ -501,7 +501,7 @@ return {
             }
         ]
     },
-    ["Shadow Freddy"] = {
+    "Shadow Freddy": {
         "Type": "AOE",
         "Image": "rbxassetid://17270065249",
         "Rarity": "Secret",
@@ -539,7 +539,7 @@ return {
             }
         ]
     },
-    ["Balloon Boy"] = {
+    "Balloon Boy": {
         "Type": "Explosion",
         "Image": "rbxassetid://16781077553",
         "Rarity": "Mythic",
@@ -578,7 +578,7 @@ return {
             }
         ]
     },
-    ["Golden Freddy"] = {
+    "Golden Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://17629034232",
         "Rarity": "Mythic",
@@ -617,7 +617,7 @@ return {
             }
         ]
     },
-    ["Puppet"] = {
+    "Puppet": {
         "Type": "Pierce",
         "Image": "rbxassetid://17802016570",
         "Rarity": "Secret",
@@ -656,13 +656,16 @@ return {
             }
         ]
     },
-    ["Withered Golden Freddy"] = {
+    "Withered Golden Freddy": {
         "Type": "Single Wither",
         "Image": "rbxassetid://16781122207",
         "Rarity": "Nightmare",
         "PlacePrice": 4000,
         "Max": 4,
-        "Passive": {"Name": "Vengeful", "Description": "Targetted enemies take +35% more damage for 1 second."},
+        "Passive": {
+            "Name": "Vengeful",
+            "Description": "Targetted enemies take +35% more damage for 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -707,7 +710,7 @@ return {
             }
         ]
     },
-    ["Endo"] = {
+    "Endo": {
         "Type": "Support",
         "Image": "rbxassetid://17851638702",
         "Rarity": "Secret",
@@ -750,7 +753,7 @@ return {
             }
         ]
     },
-    ["Endo 02"] = {
+    "Endo 02": {
         "Type": "Single",
         "Image": "rbxassetid://17690383931",
         "Rarity": "Secret",
@@ -789,7 +792,7 @@ return {
             }
         ]
     },
-    ["Plane Boy"] = {
+    "Plane Boy": {
         "Type": "Continuous",
         "Image": "rbxassetid://17689713814",
         "Rarity": "Secret",
@@ -828,7 +831,7 @@ return {
             }
         ]
     },
-    ["Rockin Bonnie"] = {
+    "Rockin Bonnie": {
         "Type": "AOE",
         "Image": "rbxassetid://17689695988",
         "Rarity": "Secret",
@@ -866,14 +869,17 @@ return {
             }
         ]
     },
-    ["Pirate Withered Foxy"] = {
+    "Pirate Withered Foxy": {
         "Type": "Single",
         "Image": "rbxassetid://17851205149",
         "Rarity": "Secret",
         "PlacePrice": 500,
         "Offset": 0.55,
         "Max": 3,
-        "Passive": {"Name": "Pirate's Curse", "Description": "Targeted enemies take 25% more damage for 1 second"},
+        "Passive": {
+            "Name": "Pirate's Curse",
+            "Description": "Targeted enemies take 25% more damage for 1 second"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -918,7 +924,7 @@ return {
             }
         ]
     },
-    ["Marionette's Puppeteer"] = {
+    "Marionette's Puppeteer": {
         "Type": "AOE",
         "Image": "rbxassetid://18151575297",
         "Rarity": "Nightmare",
@@ -957,13 +963,16 @@ return {
             }
         ]
     },
-    ["Blighted Endo Freddy"] = {
+    "Blighted Endo Freddy": {
         "Type": "AOE + Wither",
         "Image": "rbxassetid://18151573285",
         "Rarity": "Nightmare",
         "PlacePrice": 71000,
         "Max": 2,
-        "Passive": {"Name": "Blight", "Description": "Enemies in range take 20% more damage"},
+        "Passive": {
+            "Name": "Blight",
+            "Description": "Enemies in range take 20% more damage"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -1008,7 +1017,7 @@ return {
             }
         ]
     },
-    ["Baker Toy Chica"] = {
+    "Baker Toy Chica": {
         "Type": "Explosion",
         "Image": "rbxassetid://18161347460",
         "Rarity": "Epic",
@@ -1046,13 +1055,16 @@ return {
             }
         ]
     },
-    ["Summer Toy Bonnie"] = {
+    "Summer Toy Bonnie": {
         "Type": "Slow",
         "Image": "rbxassetid://18255590026",
         "Rarity": "Rare",
         "PlacePrice": 800,
         "Max": 3,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -1065,7 +1077,7 @@ return {
                 "Range": 15,
                 "Damage": 20,
                 "Cooldown": 1,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             },
             {
@@ -1073,7 +1085,7 @@ return {
                 "Range": 16,
                 "Damage": 25,
                 "Cooldown": 1,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             },
             {
@@ -1094,7 +1106,7 @@ return {
             }
         ]
     },
-    ["Coco Boy"] = {
+    "Coco Boy": {
         "Type": "Explosion",
         "Image": "rbxassetid://18256042312",
         "Rarity": "Mythic",
@@ -1132,7 +1144,7 @@ return {
             }
         ]
     },
-    ["Vendor Toy Chica"] = {
+    "Vendor Toy Chica": {
         "Type": "Explosion",
         "Image": "rbxassetid://121812873213035",
         "Rarity": "Mythic",
@@ -1171,7 +1183,7 @@ return {
             }
         ]
     },
-    ["Seven Seas Foxy"] = {
+    "Seven Seas Foxy": {
         "Type": "Pierce",
         "Image": "rbxassetid://18255813345",
         "Rarity": "Secret",
@@ -1210,7 +1222,7 @@ return {
             }
         ]
     },
-    ["Leviathan Mangle"] = {
+    "Leviathan Mangle": {
         "Type": "Pierce",
         "Image": "rbxassetid://18256011276",
         "Rarity": "Nightmare",
@@ -1248,13 +1260,16 @@ return {
             }
         ]
     },
-    ["Algae FredBear"] = {
+    "Algae FredBear": {
         "Type": "Nuke",
         "Image": "rbxassetid://18255264349",
         "Rarity": "Nightmare",
         "PlacePrice": 3000,
         "Max": 2,
-        "Passive": {"Name": "Sludge", "Description": "Attacks slow enemies by 55% for 1 second"},
+        "Passive": {
+            "Name": "Sludge",
+            "Description": "Attacks slow enemies by 55% for 1 second"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -1295,7 +1310,7 @@ return {
             }
         ]
     },
-    ["Hawaii Endo 02"] = {
+    "Hawaii Endo 02": {
         "Type": "Support",
         "Image": "rbxassetid://18255863130",
         "Rarity": "Epic",
@@ -1338,7 +1353,7 @@ return {
             }
         ]
     },
-    ["Rad Freddy"] = {
+    "Rad Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://18258392627",
         "Rarity": "Secret",
@@ -1377,7 +1392,7 @@ return {
             }
         ]
     },
-    ["Patriot Freddy"] = {
+    "Patriot Freddy": {
         "Type": "Explosion",
         "Image": "rbxassetid://18326604996",
         "Rarity": "Secret",
@@ -1416,7 +1431,7 @@ return {
             }
         ]
     },
-    ["SpringTrap"] = {
+    "SpringTrap": {
         "Type": "Pierce",
         "Image": "rbxassetid://18356146630",
         "Rarity": "Nightmare",
@@ -1454,7 +1469,7 @@ return {
             }
         ]
     },
-    ["Endo 03"] = {
+    "Endo 03": {
         "Type": "Single",
         "Image": "rbxassetid://18363471703",
         "Rarity": "Epic",
@@ -1492,7 +1507,7 @@ return {
             }
         ]
     },
-    ["Phantom Foxy"] = {
+    "Phantom Foxy": {
         "Type": "Single",
         "Image": "rbxassetid://18356274992",
         "Rarity": "Rare",
@@ -1530,7 +1545,7 @@ return {
             }
         ]
     },
-    ["Phantom Chica"] = {
+    "Phantom Chica": {
         "Type": "Explosion",
         "Image": "rbxassetid://18356356760",
         "Rarity": "Secret",
@@ -1568,7 +1583,7 @@ return {
             }
         ]
     },
-    ["Phantom Freddy"] = {
+    "Phantom Freddy": {
         "Type": "Continuous",
         "Image": "rbxassetid://18363498934",
         "Rarity": "Secret",
@@ -1606,7 +1621,7 @@ return {
             }
         ]
     },
-    ["Phantom Balloon Boy"] = {
+    "Phantom Balloon Boy": {
         "Type": "Nuke",
         "Image": "rbxassetid://18356472602",
         "Rarity": "Secret",
@@ -1644,7 +1659,7 @@ return {
             }
         ]
     },
-    ["Phantom Gold Freddy"] = {
+    "Phantom Gold Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://18363517791",
         "Rarity": "Mythic",
@@ -1682,7 +1697,7 @@ return {
             }
         ]
     },
-    ["FazCade"] = {
+    "FazCade": {
         "Type": "Farm",
         "Image": "rbxassetid://18363529003",
         "Rarity": "Epic",
@@ -1725,13 +1740,16 @@ return {
             }
         ]
     },
-    ["Phantom Mangle"] = {
+    "Phantom Mangle": {
         "Type": "Continuous Wither",
         "Image": "rbxassetid://18363533024",
         "Rarity": "Nightmare",
         "PlacePrice": 61000,
         "Max": 2,
-        "Passive": {"Name": "Phantasms Wrath", "Description": "Targetted enemies take 50% more damage for 1 second."},
+        "Passive": {
+            "Name": "Phantasms Wrath",
+            "Description": "Targetted enemies take 50% more damage for 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -1776,7 +1794,7 @@ return {
             }
         ]
     },
-    ["Phantom Cupcake"] = {
+    "Phantom Cupcake": {
         "Type": "Single",
         "Image": "rbxassetid://18363537562",
         "Rarity": "Secret",
@@ -1813,13 +1831,17 @@ return {
                 "Cooldown": 1
             }
         ]
-    },    ["Amalgam"] = {
+    },
+    "Amalgam": {
         "Type": "Continuous Slow",
         "Image": "rbxassetid://18363541545",
         "Rarity": "Epic",
         "PlacePrice": 2000,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies by 50%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies by 50%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -1856,7 +1878,7 @@ return {
             }
         ]
     },
-    ["Phantom Puppet"] = {
+    "Phantom Puppet": {
         "Type": "Pierce",
         "Image": "rbxassetid://18363546528",
         "Rarity": "Secret",
@@ -1894,7 +1916,7 @@ return {
             }
         ]
     },
-    ["Spring Bonnie"] = {
+    "Spring Bonnie": {
         "Type": "Support",
         "Image": "rbxassetid://18364574191",
         "Rarity": "Nightmare",
@@ -1926,7 +1948,7 @@ return {
                 "Range": 25,
                 "Damage": 0,
                 "Cooldown": 4,
-                "DamageBoost": 1.30
+                "DamageBoost": 1.3
             },
             {
                 "Price": 2500,
@@ -1937,7 +1959,7 @@ return {
             }
         ]
     },
-    ["Bounded Shadow"] = {
+    "Bounded Shadow": {
         "Type": "Pierce",
         "Image": "rbxassetid://18363555442",
         "Rarity": "Nightmare",
@@ -1975,14 +1997,17 @@ return {
             }
         ]
     },
-    ["Sentinel Bonnie"] = {
+    "Sentinel Bonnie": {
         "Type": "Continuous",
         "Image": "rbxassetid://18363569957",
         "Rarity": "Nightmare",
         "PlacePrice": 3000,
         "Offset": 0.35,
         "Max": 1,
-        "Passive": {"Name": "Bleed", "Description": "Targetted enemies suffer from 100% Anti Regen for 1 second."},
+        "Passive": {
+            "Name": "Bleed",
+            "Description": "Targetted enemies suffer from 100% Anti Regen for 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2023,7 +2048,7 @@ return {
             }
         ]
     },
-    ["War Machine Foxy"] = {
+    "War Machine Foxy": {
         "Type": "Continuous Cone AOE",
         "Image": "rbxassetid://18363581536",
         "Rarity": "Nightmare",
@@ -2062,7 +2087,7 @@ return {
             }
         ]
     },
-    ["Sniper Cupcake"] = {
+    "Sniper Cupcake": {
         "Type": "Single",
         "Image": "rbxassetid://18364281117",
         "Rarity": "Rare",
@@ -2101,13 +2126,16 @@ return {
             }
         ]
     },
-    ["Witch Toy Chica"] = {
+    "Witch Toy Chica": {
         "Type": "Poison",
         "Image": "rbxassetid://18363391561",
         "Rarity": "Secret",
         "PlacePrice": 500,
         "Max": 3,
-        "Passive": {"Name": "Lethal Potions", "Description": "Deals 75% damage in poison over 3 seconds"},
+        "Passive": {
+            "Name": "Lethal Potions",
+            "Description": "Deals 75% damage in poison over 3 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2149,13 +2177,16 @@ return {
             }
         ]
     },
-    ["Abyssal Foxy"] = {
+    "Abyssal Foxy": {
         "Type": "Continuous Slow",
         "Image": "rbxassetid://18578478327",
         "Rarity": "Nightmare",
         "PlacePrice": 45000,
         "Max": 1,
-        "Passive": {"Name": "Slow", "Description": "Main Attack slows enemies by 60%. During charge state enemies are slowed by 70%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Main Attack slows enemies by 60%. During charge state enemies are slowed by 70%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2215,7 +2246,7 @@ return {
             }
         ]
     },
-    ["Major Freddy"] = {
+    "Major Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://18665224476",
         "Rarity": "Rare",
@@ -2261,7 +2292,7 @@ return {
             }
         ]
     },
-    ["Enforcer Bonnie"] = {
+    "Enforcer Bonnie": {
         "Type": "Continuous",
         "Image": "rbxassetid://18673234413",
         "Rarity": "Secret",
@@ -2284,7 +2315,7 @@ return {
             {
                 "Price": 15000,
                 "Range": 20,
-                "Damage":45,
+                "Damage": 45,
                 "Cooldown": 0.125,
                 "Ammo": 50,
                 "ReloadTime": 1.5
@@ -2307,7 +2338,7 @@ return {
             }
         ]
     },
-    ["Mercenary Foxy"] = {
+    "Mercenary Foxy": {
         "Type": "Continuous",
         "Image": "rbxassetid://18673129884",
         "Rarity": "Mythic",
@@ -2353,7 +2384,7 @@ return {
             }
         ]
     },
-    ["Cupcake Tank"] = {
+    "Cupcake Tank": {
         "Type": "Summoner",
         "Image": "rbxassetid://18673630095",
         "Rarity": "Secret",
@@ -2412,7 +2443,7 @@ return {
             }
         ]
     },
-    ["Commando Endo"] = {
+    "Commando Endo": {
         "Type": "Continuous Splash",
         "Image": "rbxassetid://18673468864",
         "Rarity": "Secret",
@@ -2487,7 +2518,7 @@ return {
             }
         ]
     },
-    ["Rocketeer Mangle"] = {
+    "Rocketeer Mangle": {
         "Type": "Explosion",
         "Image": "rbxassetid://18673926504",
         "Rarity": "Secret",
@@ -2526,7 +2557,7 @@ return {
             }
         ]
     },
-    ["Valkyrie Chica"] = {
+    "Valkyrie Chica": {
         "Type": "Continuous",
         "Image": "rbxassetid://18673330553",
         "Rarity": "Nightmare",
@@ -2565,7 +2596,7 @@ return {
             }
         ]
     },
-    ["Artillery Puppet"] = {
+    "Artillery Puppet": {
         "Type": "Explosion",
         "Image": "rbxassetid://18672617524",
         "Rarity": "Epic",
@@ -2604,14 +2635,17 @@ return {
             }
         ]
     },
-    ["Tarnished Spring Bonnie"] = {
+    "Tarnished Spring Bonnie": {
         "Type": "Cone AOE + Passive",
         "Image": "rbxassetid://18777411515",
         "Rarity": "Secret",
         "PlacePrice": 600,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Tarnish", "Description": "Enemies hit by Tarnished Spring Bonnie's attack take 10% more damage for 2 seconds."},
+        "Passive": {
+            "Name": "Tarnish",
+            "Description": "Enemies hit by Tarnished Spring Bonnie's attack take 10% more damage for 2 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2665,7 +2699,7 @@ return {
             }
         ]
     },
-    ["Scott"] = {
+    "Scott": {
         "Type": "Splash",
         "Image": "rbxassetid://18864498819",
         "Rarity": "Secret",
@@ -2684,7 +2718,6 @@ return {
                 "Damage": 1000,
                 "Cooldown": 2.5
             },
-
             {
                 "Price": 10000,
                 "Range": 28,
@@ -2717,14 +2750,17 @@ return {
             }
         ]
     },
-    ["Circuit Breaker Freddy"] = {
+    "Circuit Breaker Freddy": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://18886487842",
         "Rarity": "Nightmare",
         "PlacePrice": 6000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Virus", "Description": "Enemies hit by Circuit Breaker's attack take 7.5% more damage for 3 seconds (15% if shiny)"},
+        "Passive": {
+            "Name": "Virus",
+            "Description": "Enemies hit by Circuit Breaker's attack take 7.5% more damage for 3 seconds (15% if shiny)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2769,7 +2805,7 @@ return {
             }
         ]
     },
-    ["Glitched Puppeteer"] = {
+    "Glitched Puppeteer": {
         "Type": "Splash",
         "Image": "rbxassetid://18887217738",
         "Rarity": "Nightmare",
@@ -2808,7 +2844,7 @@ return {
             }
         ]
     },
-    ["Glitched CupCake"] = {
+    "Glitched CupCake": {
         "Type": "AOE",
         "Image": "rbxassetid://18888327109",
         "Rarity": "Epic",
@@ -2847,14 +2883,17 @@ return {
             }
         ]
     },
-    ["The Crying Child"] = {
+    "The Crying Child": {
         "Type": "Slow",
         "Image": "rbxassetid://18937271323",
         "Rarity": "Secret",
         "PlacePrice": 800,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies by 50-70%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies by 50-70%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2898,7 +2937,7 @@ return {
             }
         ]
     },
-    ["Nightmare Foxy"] = {
+    "Nightmare Foxy": {
         "Type": "Splash",
         "Image": "rbxassetid://18974775213",
         "Rarity": "Mythic",
@@ -2937,7 +2976,7 @@ return {
             }
         ]
     },
-    ["Nightmare Bonnie"] = {
+    "Nightmare Bonnie": {
         "Type": "Melee",
         "Image": "rbxassetid://18975677946",
         "Rarity": "Secret",
@@ -2976,7 +3015,7 @@ return {
             }
         ]
     },
-    ["Nightmare Chica"] = {
+    "Nightmare Chica": {
         "Type": "Splash",
         "Image": "rbxassetid://18975771590",
         "Rarity": "Epic",
@@ -3019,7 +3058,7 @@ return {
             }
         ]
     },
-    ["Nightmare Freddy"] = {
+    "Nightmare Freddy": {
         "Type": "Melee",
         "Image": "rbxassetid://18975866920",
         "Rarity": "Rare",
@@ -3058,7 +3097,7 @@ return {
             }
         ]
     },
-    ["NightMarionne"] = {
+    "NightMarionne": {
         "Type": "AOE",
         "Image": "rbxassetid://18975916197",
         "Rarity": "Nightmare",
@@ -3097,7 +3136,7 @@ return {
             }
         ]
     },
-    ["Fredbear"] = {
+    "Fredbear": {
         "Type": "Support",
         "Image": "rbxassetid://18977659349",
         "Rarity": "Nightmare",
@@ -3130,7 +3169,7 @@ return {
                 "Range": 20,
                 "Damage": 10,
                 "Cooldown": 1,
-                "RangeBoost": 1.60
+                "RangeBoost": 1.6
             },
             {
                 "Price": 1200,
@@ -3141,14 +3180,17 @@ return {
             }
         ]
     },
-    ["Nightmare Cupcake"] = {
+    "Nightmare Cupcake": {
         "Type": "Single Slow",
         "Image": "rbxassetid://18978229455",
         "Rarity": "Epic",
         "PlacePrice": 1500,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3173,7 +3215,7 @@ return {
                 "Price": 2500,
                 "Range": 18,
                 "Damage": 225,
-                "Slow":  0.6,
+                "Slow": 0.6,
                 "Cooldown": 1.7
             },
             {
@@ -3185,14 +3227,17 @@ return {
             }
         ]
     },
-    ["Nightmare"] = {
+    "Nightmare": {
         "Type": "AOE Poison",
         "Image": "rbxassetid://18977738423",
         "Rarity": "Secret",
         "PlacePrice": 10000,
         "Offset": 0.5,
         "Max": 3,
-        "Passive": {"Name": "Poison", "Description": "Poisons enemies"},
+        "Passive": {
+            "Name": "Poison",
+            "Description": "Poisons enemies"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3233,14 +3278,17 @@ return {
             }
         ]
     },
-    ["Endo 04"] = {
+    "Endo 04": {
         "Type": "Cone AOE Burn",
         "Image": "rbxassetid://18989232497",
         "Rarity": "Secret",
         "PlacePrice": 3000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Burn", "Description": "Burns enemies"},
+        "Passive": {
+            "Name": "Burn",
+            "Description": "Burns enemies"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3274,21 +3322,24 @@ return {
             {
                 "Price": 6000,
                 "Range": 22,
-                "Damage":300,
+                "Damage": 300,
                 "Burn": 80,
                 "BurnTime": 1.2,
                 "Cooldown": 1
             }
         ]
     },
-    ["Flame Empress Chica"] = {
+    "Flame Empress Chica": {
         "Type": "Nuke Burn",
         "Image": "rbxassetid://18971134114",
         "Rarity": "Nightmare",
         "PlacePrice": 50000,
         "Offset": 0.5,
         "Max": 2,
-        "Passive": {"Name": "Burn", "Description": "Enemies take 100% burn damage over 3 seconds"},
+        "Passive": {
+            "Name": "Burn",
+            "Description": "Enemies take 100% burn damage over 3 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3337,14 +3388,17 @@ return {
             }
         ]
     },
-    ["Nightmare Mangle"] = {
+    "Nightmare Mangle": {
         "Type": "AOE Poison",
         "Image": "rbxassetid://18977428026",
         "Rarity": "Nightmare",
         "PlacePrice": 65000,
         "Offset": -1,
         "Max": 2,
-        "Passive": {"Name": "Poison", "Description": "Deals 200% damage in poison over 8 seconds"},
+        "Passive": {
+            "Name": "Poison",
+            "Description": "Deals 200% damage in poison over 8 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3385,7 +3439,7 @@ return {
             }
         ]
     },
-    ["Freddle"] = {
+    "Freddle": {
         "Type": "Summoner",
         "Image": "rbxassetid://18978374958",
         "Rarity": "Secret",
@@ -3436,7 +3490,7 @@ return {
             }
         ]
     },
-    ["Nightmare Balloon Boy"] = {
+    "Nightmare Balloon Boy": {
         "Type": "Pierce",
         "Image": "rbxassetid://18978330449",
         "Rarity": "Mythic",
@@ -3475,7 +3529,7 @@ return {
             }
         ]
     },
-    ["Plushtrap"] = {
+    "Plushtrap": {
         "Type": "Support",
         "Image": "rbxassetid://18978316223",
         "Rarity": "Secret",
@@ -3488,7 +3542,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-               "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 15,
@@ -3519,14 +3573,17 @@ return {
             }
         ]
     },
-    ["Nightmare Fredbear"] = {
+    "Nightmare Fredbear": {
         "Type": "Pierce",
         "Image": "rbxassetid://18978153260",
         "Rarity": "Nightmare",
         "PlacePrice": 5000,
         "Offset": 0.7,
         "Max": 2,
-        "Passive": {"Name": "Jump Scare", "Description": "Attacks stun enemies for 0.5 seconds."},
+        "Passive": {
+            "Name": "Jump Scare",
+            "Description": "Attacks stun enemies for 0.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3567,7 +3624,7 @@ return {
             }
         ]
     },
-    ["Goliath Endo Freddy"] = {
+    "Goliath Endo Freddy": {
         "Type": "AOE",
         "Image": "rbxassetid://112659672284119",
         "Rarity": "Nightmare",
@@ -3618,14 +3675,17 @@ return {
             }
         ]
     },
-    ["Galleon Foxy"] = {
+    "Galleon Foxy": {
         "Type": "Splash Slow",
         "Image": "rbxassetid://118548312954474",
         "Rarity": "Nightmare",
         "PlacePrice": 8000,
         "Offset": 1.5,
         "Max": 3,
-        "Passive": {"Name": "Pirate's Grasp", "Description": "Enemies hit by attacks are slowed by 60%"},
+        "Passive": {
+            "Name": "Pirate's Grasp",
+            "Description": "Enemies hit by attacks are slowed by 60%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3662,7 +3722,7 @@ return {
             }
         ]
     },
-    ["Rave Demon Bonnie"] = {
+    "Rave Demon Bonnie": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://100372638867635",
         "Rarity": "Secret",
@@ -3707,7 +3767,7 @@ return {
             }
         ]
     },
-    ["Buccaneer Foxy"] = {
+    "Buccaneer Foxy": {
         "Type": "Single",
         "Image": "rbxassetid://116374108172820",
         "Rarity": "Epic",
@@ -3754,7 +3814,7 @@ return {
             }
         ]
     },
-    ["Party Chica"] = {
+    "Party Chica": {
         "Type": "Splash",
         "Image": "rbxassetid://103160362573950",
         "Rarity": "Epic",
@@ -3793,14 +3853,17 @@ return {
             }
         ]
     },
-    ["Hydra Mangle"] = {
+    "Hydra Mangle": {
         "Type": "Charge AOE Burn",
         "Image": "rbxassetid://78092879730354",
         "Rarity": "Secret",
         "PlacePrice": 95000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Burn", "Description": "Burns enemies at 300% over 1 second. Applies 30% Wither to enemies in range while Charging up."},
+        "Passive": {
+            "Name": "Burn",
+            "Description": "Burns enemies at 300% over 1 second. Applies 30% Wither to enemies in range while Charging up."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3842,8 +3905,8 @@ return {
                 "BurnTime": 1,
                 "Cooldown": 0.25,
                 "ChargeTime": 3
-            } ,
-             {
+            },
+            {
                 "Price": 100000,
                 "Range": 34,
                 "Damage": 2250,
@@ -3854,14 +3917,17 @@ return {
             }
         ]
     },
-    ["Purple Guy"] = {
+    "Purple Guy": {
         "Type": "Turret Spawner",
         "Image": "rbxassetid://74846136473322",
         "Rarity": "Secret",
         "PlacePrice": 600,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Animatronic Engineer", "Description": "Spawns turrets that have 75 -> 200 DPS each"},
+        "Passive": {
+            "Name": "Animatronic Engineer",
+            "Description": "Spawns turrets that have 75 -> 200 DPS each"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3879,40 +3945,68 @@ return {
                 "Range": 22,
                 "Damage": 700,
                 "Cooldown": 1,
-                "Turret1": {"Range": 30, "Damage": 7.5, "Cooldown": 0.1}
+                "Turret1": {
+                    "Range": 30,
+                    "Damage": 7.5,
+                    "Cooldown": 0.1
+                }
             },
             {
                 "Price": 1000,
                 "Range": 25,
                 "Damage": 800,
                 "Cooldown": 1,
-                "Turret1": {"Range": 30, "Damage": 10, "Cooldown": 0.1}
+                "Turret1": {
+                    "Range": 30,
+                    "Damage": 10,
+                    "Cooldown": 0.1
+                }
             },
             {
                 "Price": 1200,
                 "Range": 27,
                 "Damage": 900,
                 "Cooldown": 1,
-                "Turret1": {"Range": 30, "Damage": 15, "Cooldown": 0.1},
-                "Turret2": {"Range": 30, "Damage": 15, "Cooldown": 0.1}
+                "Turret1": {
+                    "Range": 30,
+                    "Damage": 15,
+                    "Cooldown": 0.1
+                },
+                "Turret2": {
+                    "Range": 30,
+                    "Damage": 15,
+                    "Cooldown": 0.1
+                }
             },
             {
                 "Price": 1400,
                 "Range": 30,
                 "Damage": 1000,
                 "Cooldown": 1,
-                "Turret1": {"Range": 30, "Damage": 20, "Cooldown": 0.1},
-                "Turret2": {"Range": 30, "Damage": 20, "Cooldown": 0.1}
+                "Turret1": {
+                    "Range": 30,
+                    "Damage": 20,
+                    "Cooldown": 0.1
+                },
+                "Turret2": {
+                    "Range": 30,
+                    "Damage": 20,
+                    "Cooldown": 0.1
+                }
             }
         ]
-    },    ["Master Puppeteer"] = {
+    },
+    "Master Puppeteer": {
         "Type": "Continuous Pierce",
         "Image": "rbxassetid://139994062140962",
         "Rarity": "Nightmare",
         "PlacePrice": 25000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Lethal Rebound", "Description": "Attacks hit enemies 10 times"},
+        "Passive": {
+            "Name": "Lethal Rebound",
+            "Description": "Attacks hit enemies 10 times"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -3925,19 +4019,19 @@ return {
                 "Damage": 5600,
                 "Cooldown": 4
             },
-           {
+            {
                 "Price": 15000,
                 "Range": 27,
                 "Damage": 6400,
                 "Cooldown": 4
             },
-           {
+            {
                 "Price": 20000,
                 "Range": 30,
                 "Damage": 7000,
                 "Cooldown": 4
             },
-           {
+            {
                 "Price": 25000,
                 "Range": 33,
                 "Damage": 7600,
@@ -3945,7 +4039,7 @@ return {
             }
         ]
     },
-    ["Tuned Mangle"] = {
+    "Tuned Mangle": {
         "Type": "Splash",
         "Image": "rbxassetid://139180573868562",
         "Rarity": "Secret",
@@ -3984,7 +4078,7 @@ return {
             }
         ]
     },
-    ["Wraith Freddy"] = {
+    "Wraith Freddy": {
         "Type": "AOE",
         "Image": "rbxassetid://115627084338568",
         "Rarity": "Secret",
@@ -4003,19 +4097,19 @@ return {
                 "Damage": 750,
                 "Cooldown": 0.25
             },
-           {
+            {
                 "Price": 58000,
                 "Range": 22,
                 "Damage": 900,
                 "Cooldown": 0.25
             },
-           {
+            {
                 "Price": 63000,
                 "Range": 25,
                 "Damage": 1100,
                 "Cooldown": 0.25
             },
-           {
+            {
                 "Price": 66000,
                 "Range": 28,
                 "Damage": 1375,
@@ -4023,7 +4117,7 @@ return {
             }
         ]
     },
-    ["Spectral Chica"] = {
+    "Spectral Chica": {
         "Type": "Splash",
         "Image": "rbxassetid://130677986382080",
         "Rarity": "Secret",
@@ -4062,14 +4156,17 @@ return {
             }
         ]
     },
-    ["Agonized SpringTrap"] = {
+    "Agonized SpringTrap": {
         "Type": "Pierce Spread",
         "Image": "rbxassetid://132655301839150",
         "Rarity": "Nightmare",
         "PlacePrice": 66000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "I Always Come Back", "Description": "Attacks apply 60% Anti Bleed and 15% Wither to enemies for 2 seconds."},
+        "Passive": {
+            "Name": "I Always Come Back",
+            "Description": "Attacks apply 60% Anti Bleed and 15% Wither to enemies for 2 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4122,14 +4219,17 @@ return {
             }
         ]
     },
-    ["Limitless Shadow"] = {
+    "Limitless Shadow": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://134973909366355",
         "Rarity": "Nightmare",
         "PlacePrice": 58000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Unnerving Presence", "Description": "Deals +100% more damage if enemies are within 12 range of this unit."},
+        "Passive": {
+            "Name": "Unnerving Presence",
+            "Description": "Deals +100% more damage if enemies are within 12 range of this unit."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4162,7 +4262,7 @@ return {
             }
         ]
     },
-    ["Fractured Bonnie"] = {
+    "Fractured Bonnie": {
         "Type": "Continuous",
         "Image": "rbxassetid://124956379444337",
         "Rarity": "Secret",
@@ -4207,7 +4307,7 @@ return {
             }
         ]
     },
-    ["Cowboy Freddy"] = {
+    "Cowboy Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://75145495587772",
         "Rarity": "Rare",
@@ -4246,7 +4346,7 @@ return {
             }
         ]
     },
-    ["Tavern Chica"] = {
+    "Tavern Chica": {
         "Type": "Splash",
         "Image": "rbxassetid://75064673887993",
         "Rarity": "Mythic",
@@ -4285,7 +4385,7 @@ return {
             }
         ]
     },
-    ["Maestro Puppet"] = {
+    "Maestro Puppet": {
         "Type": "Support",
         "Image": "rbxassetid://124446963849830",
         "Rarity": "Epic",
@@ -4329,14 +4429,17 @@ return {
             }
         ]
     },
-    ["Slick Bonnie"] = {
+    "Slick Bonnie": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://123472154860279",
         "Rarity": "Secret",
         "PlacePrice": 2000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Buckshot", "Description": "Every 4 attacks Slick Bonnie uses both barrels of his shotgun, dealing double damage"},
+        "Passive": {
+            "Name": "Buckshot",
+            "Description": "Every 4 attacks Slick Bonnie uses both barrels of his shotgun, dealing double damage"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4369,7 +4472,7 @@ return {
             }
         ]
     },
-    ["Bounty Mangle"] = {
+    "Bounty Mangle": {
         "Type": "Splash Farm",
         "Image": "rbxassetid://86267470826666",
         "Rarity": "Nightmare",
@@ -4377,13 +4480,16 @@ return {
         "Offset": 0,
         "Max": 2,
         "NoEnemyAttack": true,
-        "Passive": {"Name": "Bounty Hunter", "Description": "Generates lots of extra cash after every shot and boosts money gain to units in range by +100%"},
+        "Passive": {
+            "Name": "Bounty Hunter",
+            "Description": "Generates lots of extra cash after every shot and boosts money gain to units in range by +100%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
             "Z": 0
         },
-       "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 18,
@@ -4414,7 +4520,7 @@ return {
             }
         ]
     },
-    ["Hooligan Toy Bonnie"] = {
+    "Hooligan Toy Bonnie": {
         "Type": "Splash",
         "Image": "rbxassetid://99820154884996",
         "Rarity": "Epic",
@@ -4433,19 +4539,19 @@ return {
                 "Damage": 100,
                 "Cooldown": 1
             },
-           {
+            {
                 "Price": 2000,
                 "Range": 20,
                 "Damage": 200,
                 "Cooldown": 1
             },
-           {
+            {
                 "Price": 3000,
                 "Range": 20,
                 "Damage": 250,
                 "Cooldown": 1
             },
-           {
+            {
                 "Price": 4000,
                 "Range": 20,
                 "Damage": 300,
@@ -4453,14 +4559,17 @@ return {
             }
         ]
     },
-    ["BlindEye Foxy"] = {
+    "BlindEye Foxy": {
         "Type": "Single Slow",
         "Image": "rbxassetid://122884069811995",
         "Rarity": "Secret",
         "PlacePrice": 5000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Enemies hit are slowed by 90% momentarily"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Enemies hit are slowed by 90% momentarily"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4497,7 +4606,7 @@ return {
             }
         ]
     },
-    ["Gunslinger Endo"] = {
+    "Gunslinger Endo": {
         "Type": "Single",
         "Image": "rbxassetid://128673605608035",
         "Rarity": "Secret",
@@ -4536,7 +4645,7 @@ return {
             }
         ]
     },
-    ["Outlaw Freddy"] = {
+    "Outlaw Freddy": {
         "Type": "Splash",
         "Image": "rbxassetid://136678045195601",
         "Rarity": "Nightmare",
@@ -4575,7 +4684,7 @@ return {
             }
         ]
     },
-    ["Jackpot Freddy"] = {
+    "Jackpot Freddy": {
         "Type": "Splash Farm",
         "Image": "rbxassetid://108467505723572",
         "Rarity": "Secret",
@@ -4583,7 +4692,10 @@ return {
         "Offset": 0,
         "Max": 3,
         "NoEnemyAttack": true,
-        "Passive": {"Name": "Gold Rush", "Description": "This unit generates +50% more income per shot. All other units in range gain +25% more income."},
+        "Passive": {
+            "Name": "Gold Rush",
+            "Description": "This unit generates +50% more income per shot. All other units in range gain +25% more income."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4620,7 +4732,7 @@ return {
             }
         ]
     },
-    ["Valkyrie Prime"] = {
+    "Valkyrie Prime": {
         "Type": "Continuous",
         "Image": "rbxassetid://136035340656184",
         "Rarity": "Nightmare",
@@ -4632,7 +4744,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-       "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 20,
@@ -4665,7 +4777,7 @@ return {
             }
         ]
     },
-    ["Nautic Crusher Mangle"] = {
+    "Nautic Crusher Mangle": {
         "Type": "Pierce",
         "Image": "rbxassetid://85506116594248",
         "Rarity": "Nightmare",
@@ -4704,14 +4816,17 @@ return {
             }
         ]
     },
-    ["RWQFSFASXC"] = {
+    "RWQFSFASXC": {
         "Type": "AOE",
         "Image": "rbxassetid://127646561328941",
         "Rarity": "Nightmare",
         "PlacePrice": 77000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Corruption", "Description": "For every enemy in range of RWQFSFASXC, gain +5% damage."},
+        "Passive": {
+            "Name": "Corruption",
+            "Description": "For every enemy in range of RWQFSFASXC, gain +5% damage."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4744,62 +4859,68 @@ return {
             }
         ]
     },
-    ["Astral Bonnie"] = {
-            "Type": "Continuous Splash",
-            "Image": "rbxassetid://128604882971057",
-            "Rarity": "Apex",
-            "PlacePrice": 20000,
-            "Offset": 0.5,
-            "Max": 3,
-            "Passive": {"Name": "Nuclear Fission", "Description": "Completely halts regen on targeted enemies"},
-            "hitboxOffset": {
-                "X": 0,
-                "Y": 0,
-                "Z": 0
-            },
-            "Upgrades": [
-                {
-                    "Price": 0,
-                    "Range": 30,
-                    "Damage": 2000,
-                    "Cooldown": 0.25,
-                    "Bleed": 0,
-                    "BleedTime": 10
-                },
-                {
-                    "Price": 25000,
-                    "Range": 32,
-                    "Damage": 2400,
-                    "Cooldown": 0.25,
-                    "Bleed": 0,
-                    "BleedTime": 10
-                },
-                {
-                    "Price": 30000,
-                    "Range": 34,
-                    "Damage": 2800,
-                    "Cooldown": 0.25,
-                    "Bleed": 0,
-                    "BleedTime": 10
-                },
-                {
-                    "Price": 40000,
-                    "Range": 40,
-                    "Damage": 3200,
-                    "Cooldown": 0.25,
-                    "Bleed": 0,
-                    "BleedTime": 10
-                }
-            ]
+    "Astral Bonnie": {
+        "Type": "Continuous Splash",
+        "Image": "rbxassetid://128604882971057",
+        "Rarity": "Apex",
+        "PlacePrice": 20000,
+        "Offset": 0.5,
+        "Max": 3,
+        "Passive": {
+            "Name": "Nuclear Fission",
+            "Description": "Completely halts regen on targeted enemies"
         },
-    ["Phone Guy"] = {
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 2000,
+                "Cooldown": 0.25,
+                "Bleed": 0,
+                "BleedTime": 10
+            },
+            {
+                "Price": 25000,
+                "Range": 32,
+                "Damage": 2400,
+                "Cooldown": 0.25,
+                "Bleed": 0,
+                "BleedTime": 10
+            },
+            {
+                "Price": 30000,
+                "Range": 34,
+                "Damage": 2800,
+                "Cooldown": 0.25,
+                "Bleed": 0,
+                "BleedTime": 10
+            },
+            {
+                "Price": 40000,
+                "Range": 40,
+                "Damage": 3200,
+                "Cooldown": 0.25,
+                "Bleed": 0,
+                "BleedTime": 10
+            }
+        ]
+    },
+    "Phone Guy": {
         "Type": "AOE DMG + Slow",
         "Image": "rbxassetid://138275060327175",
         "Rarity": "Secret",
         "PlacePrice": 750,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Radio Waves", "Description": "Slows all enemies in range by 30% and applies 15% anti regen for 1 second"},
+        "Passive": {
+            "Name": "Radio Waves",
+            "Description": "Slows all enemies in range by 30% and applies 15% anti regen for 1 second"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4844,14 +4965,17 @@ return {
             }
         ]
     },
-    ["Reactor Freddy"] = {
+    "Reactor Freddy": {
         "Type": "Continuous Splash",
         "Image": "rbxassetid://77248304349602",
         "Rarity": "Nightmare",
         "PlacePrice": 40000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Radioactive", "Description": "Slows enemies by 65% and applies 25% poison over 1 second"},
+        "Passive": {
+            "Name": "Radioactive",
+            "Description": "Slows enemies by 65% and applies 25% poison over 1 second"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4900,52 +5024,54 @@ return {
             }
         ]
     },
-    ["Deadeye Freddy"] = {
+    "Deadeye Freddy": {
         "Type": "Splash",
         "Image": "rbxassetid://139393570539370",
         "Rarity": "Nightmare",
         "PlacePrice": 62000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Lethal Precision", "Description": "Deal +125% damage to stunned enemies."},
+        "Passive": {
+            "Name": "Lethal Precision",
+            "Description": "Deal +125% damage to stunned enemies."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
             "Z": 0
         },
-         "Upgrades": [
-        {
-            "Price": 0,
-            "Range": 28,
-            "Damage": 4000,
-            "StunDamage": 2.25,
-            "Cooldown": 0.5
-        },
-        {
-            "Price": 68000,
-            "Range": 31,
-            "Damage": 4500,
-            "StunDamage": 2.25,
-            "Cooldown": 0.5
-        },
-        {
-            "Price": 72000,
-            "Range": 34,
-            "Damage": 5200,
-            "StunDamage": 2.25,
-            "Cooldown": 0.5
-
-        },
-        {
-            "Price": 75000,
-            "Range": 38,
-            "Damage": 6000,
-            "StunDamage": 2.25,
-            "Cooldown": 0.5
-        }
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 28,
+                "Damage": 4000,
+                "StunDamage": 2.25,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 68000,
+                "Range": 31,
+                "Damage": 4500,
+                "StunDamage": 2.25,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 72000,
+                "Range": 34,
+                "Damage": 5200,
+                "StunDamage": 2.25,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 75000,
+                "Range": 38,
+                "Damage": 6000,
+                "StunDamage": 2.25,
+                "Cooldown": 0.5
+            }
         ]
     },
-    ["Ennard"] = {
+    "Ennard": {
         "Type": "Chain Shock",
         "Image": "rbxassetid://82456156246566",
         "Rarity": "Nightmare",
@@ -4953,7 +5079,10 @@ return {
         "Offset": 0.75,
         "Max": 2,
         "MaxChain": 15,
-        "Passive": {"Name": "Controlled Shock", "Description": "Sends out a controlled shock that bounces up to 15 different enemies dealing damage and stunning them."},
+        "Passive": {
+            "Name": "Controlled Shock",
+            "Description": "Sends out a controlled shock that bounces up to 15 different enemies dealing damage and stunning them."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -4994,14 +5123,17 @@ return {
             }
         ]
     },
-    ["Circus Baby"] = {
+    "Circus Baby": {
         "Type": "Slash Stun",
         "Image": "rbxassetid://109411645448750",
         "Rarity": "Nightmare",
         "PlacePrice": 22500,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Family Reunion", "Description": "Attacks stun enemies for 0.5 seconds. Circus Baby gains an additional 40% damage boost (stackable up to 120%) if a Springtrap or Ballora are on the same team."},
+        "Passive": {
+            "Name": "Family Reunion",
+            "Description": "Attacks stun enemies for 0.5 seconds. Circus Baby gains an additional 40% damage boost (stackable up to 120%) if a Springtrap or Ballora are on the same team."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5042,7 +5174,7 @@ return {
             }
         ]
     },
-    ["Ballora"] = {
+    "Ballora": {
         "Type": "Cooldown Booster",
         "Image": "rbxassetid://96561789964833",
         "Rarity": "Mythic",
@@ -5086,7 +5218,7 @@ return {
             }
         ]
     },
-    ["Funtime Foxy"] = {
+    "Funtime Foxy": {
         "Type": "Splash",
         "Image": "rbxassetid://130210196007742",
         "Rarity": "Rare",
@@ -5125,7 +5257,7 @@ return {
             }
         ]
     },
-    ["Funtime Freddy"] = {
+    "Funtime Freddy": {
         "Type": "Splash",
         "Image": "rbxassetid://113691386593768",
         "Rarity": "Epic",
@@ -5164,14 +5296,17 @@ return {
             }
         ]
     },
-    ["Mendo"] = {
+    "Mendo": {
         "Type": "Trap Layer",
         "Image": "rbxassetid://117153987968201",
         "Rarity": "Secret",
         "PlacePrice": 8000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Beartrap", "Description": "Spawns Beartraps that last forever until an enemy steps on them (300 max)"},
+        "Passive": {
+            "Name": "Beartrap",
+            "Description": "Spawns Beartraps that last forever until an enemy steps on them (300 max)"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -5205,14 +5340,17 @@ return {
             }
         ]
     },
-    ["Lolbit"] = {
+    "Lolbit": {
         "Type": "Pierce Spread Stun",
         "Image": "rbxassetid://123600440160662",
         "Rarity": "Nightmare",
         "PlacePrice": 4000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "PLEASE STAND BY!", "Description": "Attacks stun enemies for 0.6 seconds"},
+        "Passive": {
+            "Name": "PLEASE STAND BY!",
+            "Description": "Attacks stun enemies for 0.6 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5253,14 +5391,17 @@ return {
             }
         ]
     },
-    ["Tangle"] = {
+    "Tangle": {
         "Type": "Nuke",
         "Image": "rbxassetid://75252636792874",
         "Rarity": "Secret",
         "PlacePrice": 6500,
         "Offset": -1.2,
         "Max": 1,
-	"Passive": {"Name": "Tangled", "Description": "Attacks apply 1s Stun and 25% Burn for 2s. "},
+        "Passive": {
+            "Name": "Tangled",
+            "Description": "Attacks apply 1s Stun and 25% Burn for 2s. "
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5309,7 +5450,7 @@ return {
             }
         ]
     },
-    ["Music Man"] = {
+    "Music Man": {
         "Type": "Cooldown Booster",
         "Image": "rbxassetid://77906930997624",
         "Rarity": "Nightmare",
@@ -5322,7 +5463,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-         "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 20,
@@ -5353,7 +5494,7 @@ return {
             }
         ]
     },
-    ["Bonnet"] = {
+    "Bonnet": {
         "Type": "Splash",
         "Image": "rbxassetid://110847799109792",
         "Rarity": "Epic",
@@ -5392,14 +5533,17 @@ return {
             }
         ]
     },
-    ["Elizabeth"] = {
+    "Elizabeth": {
         "Type": "Splash Slow",
         "Image": "rbxassetid://102659257102214",
         "Rarity": "Secret",
         "PlacePrice": 400,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Slow", "Description": "Attacks slow enemies by 30%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Attacks slow enemies by 30%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5436,14 +5580,17 @@ return {
             }
         ]
     },
-    ["Endo 05"] = {
+    "Endo 05": {
         "Type": "Nuke Stun",
         "Image": "rbxassetid://75720210105816",
         "Rarity": "Nightmare",
         "PlacePrice": 54000,
         "Offset": 0.5,
         "Max": 1,
-        "Passive": {"Name": "Controlled Shock", "Description": "Attacks stun enemies for 1 second."},
+        "Passive": {
+            "Name": "Controlled Shock",
+            "Description": "Attacks stun enemies for 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5484,14 +5631,17 @@ return {
             }
         ]
     },
-    ["Animdude"] = {
+    "Animdude": {
         "Type": "Nuke + Passive",
         "Image": "rbxassetid://77112261441145",
         "Rarity": "Secret",
         "PlacePrice": 4000,
         "Offset": 1.25,
         "Max": 1,
-        "Passive": {"Name": "Recursive Volley", "Description": "Attacks strike twice and stun enemies for 0.5 seconds"},
+        "Passive": {
+            "Name": "Recursive Volley",
+            "Description": "Attacks strike twice and stun enemies for 0.5 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5548,14 +5698,17 @@ return {
             }
         ]
     },
-    ["Fortified Endo 02"] = {
+    "Fortified Endo 02": {
         "Type": "Cone AOE + Passive",
         "Image": "rbxassetid://86634335404738",
         "Rarity": "Secret",
         "PlacePrice": 500,
         "Offset": 0,
         "Max": 4,
-        "Passive": {"Name": "Infected Circuit", "Description": "Attacks apply 15% Anti Bleed and 7.5 Wither for 1 second"},
+        "Passive": {
+            "Name": "Infected Circuit",
+            "Description": "Attacks apply 15% Anti Bleed and 7.5 Wither for 1 second"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5608,7 +5761,7 @@ return {
             }
         ]
     },
-    ["Bomber Boy"] = {
+    "Bomber Boy": {
         "Type": "Splash",
         "Image": "rbxassetid://105906895649413",
         "Rarity": "Secret",
@@ -5647,14 +5800,17 @@ return {
             }
         ]
     },
-    ["ITS ME"] = {
+    "ITS ME": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://120282726125561",
         "Rarity": "Nightmare",
         "PlacePrice": 7500,
         "Offset": -1.4,
         "Max": 1,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies by 40%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies by 40%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5695,14 +5851,17 @@ return {
             }
         ]
     },
-    ["Old Man Consequences"] = {
+    "Old Man Consequences": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://95479691284429",
         "Rarity": "Apex",
         "PlacePrice": 11340,
         "Offset": 0.5,
         "Max": 1,
-        "Passive": {"Name": "Hook and Line", "Description": "Reels in an enemy every 5 seconds, erasing them completely. Deals x20 damage to bosses and true stuns them for 1.65 seconds."},
+        "Passive": {
+            "Name": "Hook and Line",
+            "Description": "Reels in an enemy every 5 seconds, erasing them completely. Deals x20 damage to bosses and true stuns them for 1.65 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5735,14 +5894,17 @@ return {
             }
         ]
     },
-    ["Fazbear Mafia"] = {
+    "Fazbear Mafia": {
         "Type": "Splash + Summon",
         "Image": "rbxassetid://131447165249179",
         "Rarity": "Secret",
         "PlacePrice": 8000,
         "Offset": 0.3,
         "Max": 2,
-        "Passive": {"Name": "Fazbear Family", "Description": "Spawns armored cars equal to 100x this units damage every 30 seconds. (Concept by Nogurt)"},
+        "Passive": {
+            "Name": "Fazbear Family",
+            "Description": "Spawns armored cars equal to 100x this units damage every 30 seconds. (Concept by Nogurt)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5795,14 +5957,17 @@ return {
             }
         ]
     },
-    ["Boombox Foxy"] = {
+    "Boombox Foxy": {
         "Type": "AOE Slow and Booster",
         "Image": "rbxassetid://122976176441685",
         "Rarity": "Secret",
         "PlacePrice": 250,
         "Offset": -0.4,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Slows all enemies in range by 25%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows all enemies in range by 25%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -5843,7 +6008,7 @@ return {
             }
         ]
     },
-    ["Overclocked Puppeteer"] = {
+    "Overclocked Puppeteer": {
         "Type": "Nuke",
         "Image": "rbxassetid://100495958746039",
         "Rarity": "Nightmare",
@@ -5882,7 +6047,7 @@ return {
             }
         ]
     },
-    ["Eclipse Ballora"] = {
+    "Eclipse Ballora": {
         "Type": "Damage + Cooldown Booster",
         "Image": "rbxassetid://87973816034102",
         "Rarity": "Nightmare",
@@ -5929,7 +6094,8 @@ return {
                 "DamageBoost": 1.27
             }
         ]
-    },    ["Jack O Cannon"] = {
+    },
+    "Jack O Cannon": {
         "Type": "Splash",
         "Image": "rbxassetid://96604370427078",
         "Rarity": "Secret",
@@ -5968,14 +6134,17 @@ return {
             }
         ]
     },
-    ["Scarecrow Foxy"] = {
+    "Scarecrow Foxy": {
         "Type": "Splash Stun + Passive",
         "Image": "rbxassetid://112050273953919",
         "Rarity": "Nightmare",
         "PlacePrice": 16000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Fright", "Description": "Burns enemies at 50% over 2 seconds and applies 50% Anti Regen for 1 second"},
+        "Passive": {
+            "Name": "Fright",
+            "Description": "Burns enemies at 50% over 2 seconds and applies 50% Anti Regen for 1 second"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -6032,14 +6201,17 @@ return {
             }
         ]
     },
-    ["Clowntrap"] = {
+    "Clowntrap": {
         "Type": "Splash Stun",
         "Image": "rbxassetid://98100058612651",
         "Rarity": "Secret",
         "PlacePrice": 5000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Clown Show", "Description": "Attacks Stun enemies for 0.5 seconds and apply 10% Wither for 1.5 seconds."},
+        "Passive": {
+            "Name": "Clown Show",
+            "Description": "Attacks Stun enemies for 0.5 seconds and apply 10% Wither for 1.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -6092,20 +6264,23 @@ return {
             }
         ]
     },
-    ["Grimm Foxy"] = {
+    "Grimm Foxy": {
         "Type": "Splash Burn",
         "Image": "rbxassetid://101295016610509",
         "Rarity": "Secret",
         "PlacePrice": 500,
         "Offset": 1,
         "Max": 3,
-        "Passive": {"Name": "Burn", "Description": "Burns enemies at 125% over 2 seconds"},
+        "Passive": {
+            "Name": "Burn",
+            "Description": "Burns enemies at 125% over 2 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
             "Z": 0
         },
-         "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 20,
@@ -6140,14 +6315,17 @@ return {
             }
         ]
     },
-    ["Dreadbear"] = {
+    "Dreadbear": {
         "Type": "AOE Burn + Stun",
         "Image": "rbxassetid://71876084991999",
         "Rarity": "Nightmare",
         "PlacePrice": 51000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Frightful Terror", "Description": "Burns enemies at 25% over 1 second and stuns enemies for 0.5 seconds"},
+        "Passive": {
+            "Name": "Frightful Terror",
+            "Description": "Burns enemies at 25% over 1 second and stuns enemies for 0.5 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -6196,7 +6374,7 @@ return {
             }
         ]
     },
-    ["Jack O Bonnie"] = {
+    "Jack O Bonnie": {
         "Type": "Cone AOE Burst",
         "Image": "rbxassetid://138089489409264",
         "Rarity": "Mythic",
@@ -6208,7 +6386,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-          "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 20,
@@ -6244,10 +6422,10 @@ return {
                 "BurnTime": 2,
                 "Cooldown": 0.5,
                 "ChargeTime": 2
-            } 
+            }
         ]
     },
-    ["Jack O Endo"] = {
+    "Jack O Endo": {
         "Type": "Continuous Burn",
         "Image": "rbxassetid://140269643382452",
         "Rarity": "Secret",
@@ -6267,7 +6445,6 @@ return {
                 "Burn": 10,
                 "BurnTime": 2,
                 "Cooldown": 0.1
-                
             },
             {
                 "Price": 15000,
@@ -6295,7 +6472,7 @@ return {
             }
         ]
     },
-    ["Jack O Chica"] = {
+    "Jack O Chica": {
         "Type": "Splash Burn",
         "Image": "rbxassetid://127828338385715",
         "Rarity": "Rare",
@@ -6315,7 +6492,6 @@ return {
                 "Burn": 10,
                 "BurnTime": 2,
                 "Cooldown": 3
-                
             },
             {
                 "Price": 4000,
@@ -6343,7 +6519,7 @@ return {
             }
         ]
     },
-    ["Pumpkin Balloon Boy"] = {
+    "Pumpkin Balloon Boy": {
         "Type": "Splash Burn",
         "Image": "rbxassetid://114209077497389",
         "Rarity": "Epic",
@@ -6355,7 +6531,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-       "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 20,
@@ -6363,7 +6539,6 @@ return {
                 "Burn": 10,
                 "BurnTime": 2,
                 "Cooldown": 3
-                
             },
             {
                 "Price": 6000,
@@ -6391,73 +6566,87 @@ return {
             }
         ]
     },
-    ["Gravelord Foxy"] = {
+    "Gravelord Foxy": {
         "Type": "Summon + Pierce",
         "Image": "rbxassetid://76307842206911",
         "Rarity": "Apex",
         "PlacePrice": 20000,
         "Offset": 0.5,
         "Max": 4,
-        "Passive": {"Name": "Necromancer", "Description": "Summons spawn every 13 seconds and have health equal to 90 times this unit’s damage. Attacks apply 10% wither"},
+        "Passive": {
+            "Name": "Necromancer",
+            "Description": "Summons spawn every 13 seconds and have health equal to 90 times this unit’s damage. Attacks apply 10% wither"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
             "Z": 0
         },
-
         "Upgrades": [
             {
                 "Price": 0,
                 "Range": 35,
                 "Damage": 3000,
-                "Unit": {"Necro Spawn": 1, "Necro Spawn 2": 0},
+                "Unit": {
+                    "Necro Spawn": 1,
+                    "Necro Spawn 2": 0
+                },
                 "WalkSpeed": 9,
                 "Health": 500,
                 "Cooldown": 2,
-                "Wither": 1.10,
-                "ShinyWither": 1.10,
+                "Wither": 1.1,
+                "ShinyWither": 1.1,
                 "WitherTime": 1
             },
             {
                 "Price": 30000,
                 "Range": 40,
                 "Damage": 3500,
-                "Unit": {"Necro Spawn": 1, "Necro Spawn 2": 0},
+                "Unit": {
+                    "Necro Spawn": 1,
+                    "Necro Spawn 2": 0
+                },
                 "WalkSpeed": 9,
                 "Health": 500,
                 "Cooldown": 1.66,
-                "Wither": 1.10,
-                "ShinyWither": 1.10,
+                "Wither": 1.1,
+                "ShinyWither": 1.1,
                 "WitherTime": 1
             },
             {
                 "Price": 40000,
                 "Range": 45,
                 "Damage": 4000,
-                "Unit": {"Necro Spawn": 1, "Necro Spawn 2": 0},
+                "Unit": {
+                    "Necro Spawn": 1,
+                    "Necro Spawn 2": 0
+                },
                 "WalkSpeed": 9,
                 "Health": 500,
                 "Cooldown": 1.33,
-                "Wither": 1.10,
-                "ShinyWither": 1.10,
+                "Wither": 1.1,
+                "ShinyWither": 1.1,
                 "WitherTime": 1
             },
             {
                 "Price": 50000,
                 "Range": 50,
                 "Damage": 4500,
-                "Unit": {"Necro Spawn": 1, "Necro Spawn 2": 0},
+                "Unit": {
+                    "Necro Spawn": 1,
+                    "Necro Spawn 2": 0
+                },
                 "WalkSpeed": 9,
                 "Health": 50000,
                 "Cooldown": 1.33,
-                "Wither": 1.10,
-                "ShinyWither": 1.10,
+                "Wither": 1.1,
+                "ShinyWither": 1.1,
                 "WitherTime": 1
             }
         ]
     },
-    ["Haunted Golden Freddy"] = {
+    "Haunted Golden Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://113183024632182",
         "Rarity": "Mythic",
@@ -6496,7 +6685,7 @@ return {
             }
         ]
     },
-    ["Elite Sniper Cupcake"] = {
+    "Elite Sniper Cupcake": {
         "Type": "Single",
         "Image": "rbxassetid://98140234704161",
         "Rarity": "Rare",
@@ -6508,7 +6697,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-       "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 30,
@@ -6535,7 +6724,7 @@ return {
             }
         ]
     },
-    ["Enraged Toy Freddy"] = {
+    "Enraged Toy Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://80554534210979",
         "Rarity": "Rare",
@@ -6574,7 +6763,7 @@ return {
             }
         ]
     },
-    ["Upgraded Bonnie"] = {
+    "Upgraded Bonnie": {
         "Type": "Continuous",
         "Image": "rbxassetid://76006977041371",
         "Rarity": "Mythic",
@@ -6613,7 +6802,7 @@ return {
             }
         ]
     },
-    ["Cutlass Foxy"] = {
+    "Cutlass Foxy": {
         "Type": "Single",
         "Image": "rbxassetid://99151054438999",
         "Rarity": "Rare",
@@ -6652,7 +6841,7 @@ return {
             }
         ]
     },
-    ["Cool Toy Bonnie"] = {
+    "Cool Toy Bonnie": {
         "Type": "Single",
         "Image": "rbxassetid://102583887192750",
         "Rarity": "Epic",
@@ -6664,7 +6853,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-       "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 12,
@@ -6691,7 +6880,7 @@ return {
             }
         ]
     },
-    ["Demolition Toy Chica"] = {
+    "Demolition Toy Chica": {
         "Type": "Splash",
         "Image": "rbxassetid://117417835066117",
         "Rarity": "Epic",
@@ -6730,7 +6919,7 @@ return {
             }
         ]
     },
-    ["Reinforced Freddy"] = {
+    "Reinforced Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://120373540270181",
         "Rarity": "Uncommon",
@@ -6769,7 +6958,7 @@ return {
             }
         ]
     },
-    ["Baker Chica"] = {
+    "Baker Chica": {
         "Type": "Single",
         "Image": "rbxassetid://107530099452850",
         "Rarity": "Uncommon",
@@ -6808,7 +6997,7 @@ return {
             }
         ]
     },
-    ["Dino Withered Chica"] = {
+    "Dino Withered Chica": {
         "Type": "Single",
         "Image": "rbxassetid://131013206661426",
         "Rarity": "Epic",
@@ -6847,14 +7036,17 @@ return {
             }
         ]
     },
-    ["Blighted Endo Bonnie"] = {
+    "Blighted Endo Bonnie": {
         "Type": "AOE",
         "Image": "rbxassetid://100997380896121",
         "Rarity": "Nightmare",
         "PlacePrice": 27500,
         "Offset": 0.5,
         "Max": 2,
-        "Passive": {"Name": "Blight", "Description": "Slows all enemies in range by 60% and reduces enemy regen by 50%"},
+        "Passive": {
+            "Name": "Blight",
+            "Description": "Slows all enemies in range by 60% and reduces enemy regen by 50%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -6866,7 +7058,7 @@ return {
                 "Range": 25,
                 "Damage": 6325,
                 "Cooldown": 1.15,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 3,
                 "Bleed": 0.5,
                 "BleedTime": 3
@@ -6876,7 +7068,7 @@ return {
                 "Range": 28,
                 "Damage": 7650,
                 "Cooldown": 1.15,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 3,
                 "Bleed": 0.5,
                 "BleedTime": 3
@@ -6886,7 +7078,7 @@ return {
                 "Range": 31,
                 "Damage": 10325,
                 "Cooldown": 1.15,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 3,
                 "Bleed": 0.5,
                 "BleedTime": 3
@@ -6896,21 +7088,24 @@ return {
                 "Range": 35,
                 "Damage": 12650,
                 "Cooldown": 1.15,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 3,
                 "Bleed": 0.5,
                 "BleedTime": 3
             }
         ]
     },
-    ["Super Freddy"] = {
+    "Super Freddy": {
         "Type": "Pierce",
         "Image": "rbxassetid://92313535673690",
         "Rarity": "Nightmare",
         "PlacePrice": 30000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Inferno-Laser", "Description": "Attacks deal an additional 400% damage in burn over 2 seconds."},
+        "Passive": {
+            "Name": "Inferno-Laser",
+            "Description": "Attacks deal an additional 400% damage in burn over 2 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -6940,8 +7135,8 @@ return {
                 "Cooldown": 0.25,
                 "Burn": 4200,
                 "BurnTime": 2
-            },          
-             {
+            },
+            {
                 "Price": 45000,
                 "Range": 30,
                 "Damage": 1250,
@@ -6951,14 +7146,17 @@ return {
             }
         ]
     },
-    ["Juggernaut Bonnie"] = {
+    "Juggernaut Bonnie": {
         "Type": "Continuous Splash + Passive",
         "Image": "rbxassetid://101410205353650",
         "Rarity": "Nightmare",
         "PlacePrice": 65000,
         "Offset": 0.4,
         "Max": 1,
-        "Passive": {"Name": "Lethality", "Description": "Every 5 seconds fires a railgun that deals 60x it's damage. Railgun also slows enemies by 70% for 1.5 seconds."},
+        "Passive": {
+            "Name": "Lethality",
+            "Description": "Every 5 seconds fires a railgun that deals 60x it's damage. Railgun also slows enemies by 70% for 1.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -6991,14 +7189,17 @@ return {
             }
         ]
     },
-    ["Nightguard Afton"] = {
+    "Nightguard Afton": {
         "Type": "Cone AOE Slow + Poison",
         "Image": "rbxassetid://105795940597453",
         "Rarity": "Secret",
         "PlacePrice": 550,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "FEAR", "Description": "Slows enemies by 20% and deals +80% damage in poison"},
+        "Passive": {
+            "Name": "FEAR",
+            "Description": "Slows enemies by 20% and deals +80% damage in poison"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -7012,7 +7213,7 @@ return {
                 "Cooldown": 0.8,
                 "Poison": 500,
                 "PoisonLength": 1,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 3
             },
             {
@@ -7022,7 +7223,7 @@ return {
                 "Cooldown": 0.8,
                 "Poison": 500,
                 "PoisonLength": 1,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 3
             },
             {
@@ -7032,7 +7233,7 @@ return {
                 "Cooldown": 0.8,
                 "Poison": 500,
                 "PoisonLength": 1,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 3
             },
             {
@@ -7042,12 +7243,12 @@ return {
                 "Cooldown": 0.8,
                 "Poison": 500,
                 "PoisonLength": 1,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 3
             }
         ]
     },
-    ["President Freddy"] = {
+    "President Freddy": {
         "Type": "Splash",
         "Image": "rbxassetid://133399431749556",
         "Rarity": "Secret",
@@ -7086,7 +7287,7 @@ return {
             }
         ]
     },
-    ["Sharpshooter Puppet"] = {
+    "Sharpshooter Puppet": {
         "Type": "Pierce",
         "Image": "rbxassetid://122218118663611",
         "Rarity": "Secret",
@@ -7098,7 +7299,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-      "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 30,
@@ -7125,7 +7326,7 @@ return {
             }
         ]
     },
-    ["Augmented Endo"] = {
+    "Augmented Endo": {
         "Type": "Single",
         "Image": "rbxassetid://135702265461354",
         "Rarity": "Epic",
@@ -7164,7 +7365,7 @@ return {
             }
         ]
     },
-    ["Ghastly Phantom Freddy"] = {
+    "Ghastly Phantom Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://107487482857244",
         "Rarity": "Secret",
@@ -7203,14 +7404,17 @@ return {
             }
         ]
     },
-    ["Lefty"] = {
+    "Lefty": {
         "Type": "AOE + Summon",
         "Image": "rbxassetid://71854603701229",
         "Rarity": "Nightmare",
         "PlacePrice": 10000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Puppet", "Description": "Summons crying souls that are equal to 100x this units damage."},
+        "Passive": {
+            "Name": "Puppet",
+            "Description": "Summons crying souls that are equal to 100x this units damage."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -7222,33 +7426,41 @@ return {
                 "Price": 0,
                 "Range": 25,
                 "Damage": 550,
-                "Unit": {"Haunted Soul": 1},
+                "Unit": {
+                    "Haunted Soul": 1
+                },
                 "Cooldown": 0.25
             },
             {
                 "Price": 20000,
                 "Range": 28,
                 "Damage": 800,
-                "Unit": {"Haunted Soul": 1},
+                "Unit": {
+                    "Haunted Soul": 1
+                },
                 "Cooldown": 0.25
             },
             {
                 "Price": 30000,
                 "Range": 31,
                 "Damage": 950,
-                "Unit": {"Haunted Soul": 1},
+                "Unit": {
+                    "Haunted Soul": 1
+                },
                 "Cooldown": 0.25
             },
             {
                 "Price": 40000,
                 "Range": 35,
                 "Damage": 1250,
-                "Unit": {"Haunted Soul": 1},
+                "Unit": {
+                    "Haunted Soul": 1
+                },
                 "Cooldown": 0.25
             }
         ]
     },
-    ["Rockstar Freddy"] = {
+    "Rockstar Freddy": {
         "Type": "Splash",
         "Image": "rbxassetid://115841320633400",
         "Rarity": "Rare",
@@ -7260,7 +7472,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-         "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 15,
@@ -7287,7 +7499,7 @@ return {
             }
         ]
     },
-    ["Rockstar Chica"] = {
+    "Rockstar Chica": {
         "Type": "Splash",
         "Image": "rbxassetid://136650589101234",
         "Rarity": "Epic",
@@ -7326,7 +7538,7 @@ return {
             }
         ]
     },
-    ["Rockstar Bonnie"] = {
+    "Rockstar Bonnie": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://134586861865689",
         "Rarity": "Mythic",
@@ -7338,7 +7550,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-      "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 20,
@@ -7365,7 +7577,7 @@ return {
             }
         ]
     },
-    ["Rockstar Foxy"] = {
+    "Rockstar Foxy": {
         "Type": "AOE + Booster",
         "Image": "rbxassetid://94327478010876",
         "Rarity": "Secret",
@@ -7373,7 +7585,10 @@ return {
         "NoEnemyAttack": true,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Sea Shanty", "Description": "All units in range get +35% range (x1.25 if shiny)"},
+        "Passive": {
+            "Name": "Sea Shanty",
+            "Description": "All units in range get +35% range (x1.25 if shiny)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -7393,7 +7608,6 @@ return {
                 "Damage": 150,
                 "Cooldown": 0.1,
                 "RangeBoost": 1.35
-
             },
             {
                 "Price": 25000,
@@ -7401,7 +7615,6 @@ return {
                 "Damage": 200,
                 "Cooldown": 0.1,
                 "RangeBoost": 1.35
-
             },
             {
                 "Price": 30000,
@@ -7412,7 +7625,7 @@ return {
             }
         ]
     },
-    ["Helpy"] = {
+    "Helpy": {
         "Type": "Damage + Range Booster",
         "Image": "rbxassetid://135679216615409",
         "Rarity": "Nightmare",
@@ -7460,7 +7673,7 @@ return {
             }
         ]
     },
-    ["Molten Freddy"] = {
+    "Molten Freddy": {
         "Type": "Explosion Burn",
         "Image": "rbxassetid://72496434217414",
         "Rarity": "Secret",
@@ -7468,7 +7681,10 @@ return {
         "Offset": -0.75,
         "Max": 3,
         "MaxChain": 5,
-        "Passive": {"Name": "Burn", "Description": "Applies 100% Burn damage over 3 seconds"},
+        "Passive": {
+            "Name": "Burn",
+            "Description": "Applies 100% Burn damage over 3 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -7509,14 +7725,17 @@ return {
             }
         ]
     },
-    ["Security Puppet"] = {
+    "Security Puppet": {
         "Type": "Pierce + Slow",
         "Image": "rbxassetid://85978475503613",
         "Rarity": "Secret",
         "PlacePrice": 12500,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Security Check", "Description": "Attacks apply 60% Slow, 25% Anti-Regen, and 8% Wither lasting 1 second."},
+        "Passive": {
+            "Name": "Security Check",
+            "Description": "Attacks apply 60% Slow, 25% Anti-Regen, and 8% Wither lasting 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -7528,12 +7747,12 @@ return {
                 "Range": 20,
                 "Damage": 6250,
                 "Cooldown": 1.5,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 1,
                 "Bleed": 0.75,
                 "BleedTime": 1,
-                "Wither": 1.080,
-                "ShinyWither": 1.080,
+                "Wither": 1.08,
+                "ShinyWither": 1.08,
                 "WitherTime": 1
             },
             {
@@ -7541,12 +7760,12 @@ return {
                 "Range": 25,
                 "Damage": 8250,
                 "Cooldown": 1.4,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 1,
                 "Bleed": 0.75,
                 "BleedTime": 1,
-                "Wither": 1.080,
-                "ShinyWither": 1.080,
+                "Wither": 1.08,
+                "ShinyWither": 1.08,
                 "WitherTime": 1
             },
             {
@@ -7554,12 +7773,12 @@ return {
                 "Range": 30,
                 "Damage": 10500,
                 "Cooldown": 1.3,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 1,
                 "Bleed": 0.75,
                 "BleedTime": 1,
-                "Wither": 1.080,
-                "ShinyWither": 1.080,
+                "Wither": 1.08,
+                "ShinyWither": 1.08,
                 "WitherTime": 1
             },
             {
@@ -7567,24 +7786,27 @@ return {
                 "Range": 35,
                 "Damage": 12500,
                 "Cooldown": 1.2,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 1,
                 "Bleed": 0.75,
                 "BleedTime": 1,
-                "Wither": 1.080,
-                "ShinyWither": 1.080,
+                "Wither": 1.08,
+                "ShinyWither": 1.08,
                 "WitherTime": 1
             }
         ]
     },
-    ["Scrap Baby"] = {
+    "Scrap Baby": {
         "Type": "AOE + Wither",
         "Image": "rbxassetid://96792758281792",
         "Rarity": "Nightmare",
         "PlacePrice": 6000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Scrapyard", "Description": "Enemies hit by this unit take +15% more damage."},
+        "Passive": {
+            "Name": "Scrapyard",
+            "Description": "Enemies hit by this unit take +15% more damage."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -7629,14 +7851,17 @@ return {
             }
         ]
     },
-    ["Bucket Bob"] = {
+    "Bucket Bob": {
         "Type": "AOE + Slow",
         "Image": "rbxassetid://126581484399291",
         "Rarity": "Secret",
         "PlacePrice": 300,
         "Offset": -0.925,
         "Max": 4,
-        "Passive": {"Name": "Slow", "Description": "Slows all enemies in range by 20%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows all enemies in range by 20%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -7648,7 +7873,7 @@ return {
                 "Range": 18,
                 "Damage": 60,
                 "Cooldown": 0.6,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 1
             },
             {
@@ -7656,7 +7881,7 @@ return {
                 "Range": 20,
                 "Damage": 70,
                 "Cooldown": 0.5,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 1
             },
             {
@@ -7664,7 +7889,7 @@ return {
                 "Range": 22,
                 "Damage": 80,
                 "Cooldown": 0.4,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 1
             },
             {
@@ -7672,19 +7897,22 @@ return {
                 "Range": 22,
                 "Damage": 100,
                 "Cooldown": 0.4,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 1
             }
         ]
     },
-    ["Jar of Pickles"] = {
+    "Jar of Pickles": {
         "Type": "Booster + Slow",
         "Image": "rbxassetid://98177156677827",
         "Rarity": "Nightmare",
         "PlacePrice": 3000,
         "Offset": -2,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Slows all enemies in range by 60%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows all enemies in range by 60%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -7729,7 +7957,7 @@ return {
             }
         ]
     },
-    ["Number 1 Crate"] = {
+    "Number 1 Crate": {
         "Type": "AOE",
         "Image": "rbxassetid://75811990729586",
         "Rarity": "Epic",
@@ -7768,7 +7996,7 @@ return {
             }
         ]
     },
-    ["Scraptrap"] = {
+    "Scraptrap": {
         "Type": "Pierce",
         "Image": "rbxassetid://101802698966800",
         "Rarity": "Nightmare",
@@ -7805,17 +8033,19 @@ return {
                 "Damage": 10000,
                 "Cooldown": 1
             }
-
         ]
     },
-    ["Popstar Chica"] = {
+    "Popstar Chica": {
         "Type": "AOE + Damage Boost",
         "Image": "rbxassetid://122725475592106",
         "Rarity": "Nightmare",
         "PlacePrice": 12000,
         "Offset": -5,
         "Max": 2,
-        "Passive": {"Name": "Inspire", "Description": "All units in range gain a +35% damage boost (x1.25 if shiny)"},
+        "Passive": {
+            "Name": "Inspire",
+            "Description": "All units in range gain a +35% damage boost (x1.25 if shiny)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -7835,7 +8065,6 @@ return {
                 "Damage": 416,
                 "Cooldown": 0.25,
                 "DamageBoost": 1.35
-
             },
             {
                 "Price": 22000,
@@ -7843,7 +8072,6 @@ return {
                 "Damage": 520,
                 "Cooldown": 0.25,
                 "DamageBoost": 1.35
-
             },
             {
                 "Price": 27000,
@@ -7854,14 +8082,17 @@ return {
             }
         ]
     },
-    ["Overseer Foxy"] = {
+    "Overseer Foxy": {
         "Type": "Splash Slow + Passive",
         "Image": "rbxassetid://75863350712625",
         "Rarity": "Nightmare",
         "PlacePrice": 6000,
         "Offset": -3.25,
         "Max": 3,
-        "Passive": {"Name": "Crushing Pressure", "Description": "All enemies in range are slowed by 50% and targeted enemies are slowed by 65%"},
+        "Passive": {
+            "Name": "Crushing Pressure",
+            "Description": "All enemies in range are slowed by 50% and targeted enemies are slowed by 65%"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -7895,7 +8126,7 @@ return {
             }
         ]
     },
-    ["Mr Can Do"] = {
+    "Mr Can Do": {
         "Type": "Single",
         "Image": "rbxassetid://127532360538478",
         "Rarity": "Secret",
@@ -7909,7 +8140,7 @@ return {
             "Z": 0
         },
         "Upgrades": [
-                      {
+            {
                 "Price": 0,
                 "Range": 20,
                 "Damage": 0,
@@ -7939,7 +8170,7 @@ return {
             }
         ]
     },
-    ["Geared Endo"] = {
+    "Geared Endo": {
         "Type": "Splash Continuous",
         "Image": "rbxassetid://89920479623802",
         "Rarity": "Secret",
@@ -7977,14 +8208,18 @@ return {
                 "Cooldown": 0.05
             }
         ]
-    },    ["Duelist Puppet"] = {
+    },
+    "Duelist Puppet": {
         "Type": "Pierce Slow",
         "Image": "rbxassetid://127027664698206",
         "Rarity": "Nightmare",
         "PlacePrice": 33000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Attacks slow enemies by 65% for 3 seconds."},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Attacks slow enemies by 65% for 3 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8023,10 +8258,9 @@ return {
                 "Slow": 0.35,
                 "SlowTime": 3
             }
-
         ]
     },
-    ["Mechanical Freddy"] = {
+    "Mechanical Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://116234603453447",
         "Rarity": "Epic",
@@ -8038,7 +8272,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-            "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 15,
@@ -8064,9 +8298,8 @@ return {
                 "Cooldown": 1
             }
         ]
-
     },
-    ["Brawler Foxy"] = {
+    "Brawler Foxy": {
         "Type": "Single",
         "Image": "rbxassetid://105737871914622",
         "Rarity": "Rare",
@@ -8078,7 +8311,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-          "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 15,
@@ -8105,7 +8338,7 @@ return {
             }
         ]
     },
-    ["Steampunk Mangle"] = {
+    "Steampunk Mangle": {
         "Type": "Splash",
         "Image": "rbxassetid://79766987241564",
         "Rarity": "Secret",
@@ -8144,21 +8377,24 @@ return {
             }
         ]
     },
-    ["Diver Endo"] = {
+    "Diver Endo": {
         "Type": "Slash + Slow",
         "Image": "rbxassetid://123144805229790",
         "Rarity": "Nightmare",
         "PlacePrice": 27000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Diver's Pull", "Description": "Attacks slow enemies by 65% for 1 second"},
+        "Passive": {
+            "Name": "Diver's Pull",
+            "Description": "Attacks slow enemies by 65% for 1 second"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
             "Z": 0
         },
         "Upgrades": [
-                      {
+            {
                 "Price": 0,
                 "Range": 25,
                 "Damage": 4000,
@@ -8190,17 +8426,19 @@ return {
                 "Slow": 0.35,
                 "SlowTime": 1
             }
-        
         ]
     },
-    ["Mechanic Afton"] = {
+    "Mechanic Afton": {
         "Type": "Cone AOE + Summon",
         "Image": "rbxassetid://130168982034034",
         "Rarity": "Secret",
         "PlacePrice": 600,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Engineer's Boost", "Description": "Boosts Summoners damage on the team by +20%."},
+        "Passive": {
+            "Name": "Engineer's Boost",
+            "Description": "Boosts Summoners damage on the team by +20%."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8245,21 +8483,24 @@ return {
             }
         ]
     },
-    ["Kronos Endo Freddy"] = {
+    "Kronos Endo Freddy": {
         "Type": "Nuke Stun + Passive",
         "Image": "rbxassetid://138634254895239",
         "Rarity": "Apex",
         "PlacePrice": 50000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Eternity Clock", "Description": "Normal attacks stun enemies for 0.75 seconds. Every 20 seconds freezes all enemies on the map for 2.5 seconds."},
+        "Passive": {
+            "Name": "Eternity Clock",
+            "Description": "Normal attacks stun enemies for 0.75 seconds. Every 20 seconds freezes all enemies on the map for 2.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
             "Z": 0
         },
         "Upgrades": [
-                      {
+            {
                 "Price": 0,
                 "Range": 27,
                 "Damage": 80000,
@@ -8293,7 +8534,7 @@ return {
             }
         ]
     },
-    ["Windup Bonnie"] = {
+    "Windup Bonnie": {
         "Type": "Cooldown Booster",
         "Image": "rbxassetid://95407534025882",
         "Rarity": "Mythic",
@@ -8337,14 +8578,17 @@ return {
             }
         ]
     },
-    ["Widow Baby"] = {
+    "Widow Baby": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://88651417030551",
         "Rarity": "Nightmare",
         "PlacePrice": 38000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Circus Boost", "Description": "Gives a +30% Damage Boost to all Circus Baby's on the team."},
+        "Passive": {
+            "Name": "Circus Boost",
+            "Description": "Gives a +30% Damage Boost to all Circus Baby's on the team."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8377,7 +8621,7 @@ return {
             }
         ]
     },
-    ["StoneTrap"] = {
+    "StoneTrap": {
         "Type": "Cone AOE Burn",
         "Image": "rbxassetid://102592059060827",
         "Rarity": "Nightmare",
@@ -8424,14 +8668,17 @@ return {
             }
         ]
     },
-    ["Tarnished Fredbear"] = {
+    "Tarnished Fredbear": {
         "Type": "Cone AOE + Passive",
         "Image": "rbxassetid://87312476983878",
         "Rarity": "Secret",
         "PlacePrice": 600,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Bite of '87", "Description": "Applies 30% anti regen to enemies for 2 seconds."},
+        "Passive": {
+            "Name": "Bite of '87",
+            "Description": "Applies 30% anti regen to enemies for 2 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8442,7 +8689,7 @@ return {
                 "Price": 0,
                 "Range": 22,
                 "Damage": 240,
-                "Bleed": 0.70,
+                "Bleed": 0.7,
                 "BleedTime": 2,
                 "Cooldown": 0.4
             },
@@ -8450,7 +8697,7 @@ return {
                 "Price": 800,
                 "Range": 24,
                 "Damage": 320,
-                "Bleed": 0.70,
+                "Bleed": 0.7,
                 "BleedTime": 2,
                 "Cooldown": 0.4
             },
@@ -8458,7 +8705,7 @@ return {
                 "Price": 1000,
                 "Range": 25,
                 "Damage": 400,
-                "Bleed": 0.70,
+                "Bleed": 0.7,
                 "BleedTime": 2,
                 "Cooldown": 0.4
             },
@@ -8466,13 +8713,13 @@ return {
                 "Price": 1200,
                 "Range": 27,
                 "Damage": 480,
-                "Bleed": 0.70,
+                "Bleed": 0.7,
                 "BleedTime": 2,
                 "Cooldown": 0.4
             }
         ]
     },
-    ["Gladiator Foxy"] = {
+    "Gladiator Foxy": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://75495154036126",
         "Rarity": "Secret",
@@ -8511,14 +8758,17 @@ return {
             }
         ]
     },
-    ["Dark Knight Puppet"] = {
+    "Dark Knight Puppet": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://86604943457071",
         "Rarity": "Apex",
         "PlacePrice": 70000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Equinox", "Description": "Every 3rd attack deals 400% damage and applies 60% Anti-Regen for 3 seconds. Does +1% damage per enemy within range."},
+        "Passive": {
+            "Name": "Equinox",
+            "Description": "Every 3rd attack deals 400% damage and applies 60% Anti-Regen for 3 seconds. Does +1% damage per enemy within range."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8559,14 +8809,17 @@ return {
             }
         ]
     },
-    ["The King"] = {
+    "The King": {
         "Type": "Pierce Spread",
         "Image": "rbxassetid://95564353539990",
         "Rarity": "Nightmare",
         "PlacePrice": 60000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "The Prophecy", "Description": "This unit gains a +25% damage bonus when paired with Tarnished Spring Bonnie."},
+        "Passive": {
+            "Name": "The Prophecy",
+            "Description": "This unit gains a +25% damage bonus when paired with Tarnished Spring Bonnie."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8599,14 +8852,17 @@ return {
             }
         ]
     },
-    ["Freddy Frostbear"] = {
+    "Freddy Frostbear": {
         "Type": "Pierce Slow + Passive",
         "Image": "rbxassetid://130800122285848",
         "Rarity": "Secret",
         "PlacePrice": 400,
         "Offset": 0.25,
         "Max": 3,
-        "Passive": {"Name": "Icicles", "Description": "Enemies hit by attacks are slowed by 40%."},
+        "Passive": {
+            "Name": "Icicles",
+            "Description": "Enemies hit by attacks are slowed by 40%."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8618,7 +8874,7 @@ return {
                 "Range": 20,
                 "Damage": 400,
                 "Cooldown": 1.2,
-                "Slow": 0.60,
+                "Slow": 0.6,
                 "SlowTime": 1
             },
             {
@@ -8626,7 +8882,7 @@ return {
                 "Range": 22,
                 "Damage": 500,
                 "Cooldown": 1.1,
-                "Slow": 0.60,
+                "Slow": 0.6,
                 "SlowTime": 1
             },
             {
@@ -8634,7 +8890,7 @@ return {
                 "Range": 24,
                 "Damage": 600,
                 "Cooldown": 1,
-                "Slow": 0.60,
+                "Slow": 0.6,
                 "SlowTime": 1
             },
             {
@@ -8642,19 +8898,22 @@ return {
                 "Range": 25,
                 "Damage": 700,
                 "Cooldown": 1,
-                "Slow": 0.60,
+                "Slow": 0.6,
                 "SlowTime": 1
             }
         ]
     },
-    ["Dark Frostbear"] = {
+    "Dark Frostbear": {
         "Type": "Cone AOE Slow + Passive",
         "Image": "rbxassetid://79281029634533",
         "Rarity": "Forgotten",
         "PlacePrice": 400,
         "Offset": 0.25,
         "Max": 3,
-        "Passive": {"Name": "Icicles", "Description": "Enemies hit by attacks proc a 55% AOE slow."},
+        "Passive": {
+            "Name": "Icicles",
+            "Description": "Enemies hit by attacks proc a 55% AOE slow."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8695,11 +8954,11 @@ return {
             }
         ]
     },
-    ["Reindeer Withered Bonnie"] = {
+    "Reindeer Withered Bonnie": {
         "Type": "Continuous",
         "Image": "rbxassetid://128903190044752",
         "Rarity": "Secret",
-         "PlacePrice": 14500,
+        "PlacePrice": 14500,
         "Offset": 0,
         "Max": 3,
         "hitboxOffset": {
@@ -8734,14 +8993,17 @@ return {
             }
         ]
     },
-    ["Jolly Shadow Bonnie"] = {
+    "Jolly Shadow Bonnie": {
         "Type": "AOE + Slow",
         "Image": "rbxassetid://89683904091075",
         "Rarity": "Nightmare",
         "PlacePrice": 22000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Chilling Aura", "Description": "Slows all enemies in range by 55%."},
+        "Passive": {
+            "Name": "Chilling Aura",
+            "Description": "Slows all enemies in range by 55%."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8782,14 +9044,17 @@ return {
             }
         ]
     },
-    ["Frost Queen Ballora"] = {
+    "Frost Queen Ballora": {
         "Type": "Cooldown Boost + Passive",
         "Image": "rbxassetid://134318454455185",
         "Rarity": "Nightmare",
         "PlacePrice": 2000,
         "Offset": 0.5,
         "Max": 2,
-        "Passive": {"Name": "Frigid Ballad", "Description": "Boosts damage by 20% and cooldown by 0.8x. Every 1.25s Slows all enemies in range by 60% for 0.8s."},
+        "Passive": {
+            "Name": "Frigid Ballad",
+            "Description": "Boosts damage by 20% and cooldown by 0.8x. Every 1.25s Slows all enemies in range by 60% for 0.8s."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -8802,9 +9067,9 @@ return {
                 "Range": 25,
                 "Damage": 0,
                 "Cooldown": 1.25,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 1,
-                "CooldownBoost": 0.90,
+                "CooldownBoost": 0.9,
                 "DamageBoost": 1.1
             },
             {
@@ -8812,7 +9077,7 @@ return {
                 "Range": 25,
                 "Damage": 0,
                 "Cooldown": 1.25,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 1,
                 "CooldownBoost": 0.85,
                 "DamageBoost": 1.14
@@ -8822,7 +9087,7 @@ return {
                 "Range": 25,
                 "Damage": 0,
                 "Cooldown": 1.25,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 1,
                 "CooldownBoost": 0.82,
                 "DamageBoost": 1.17
@@ -8832,14 +9097,14 @@ return {
                 "Range": 25,
                 "Damage": 0,
                 "Cooldown": 1.25,
-                "Slow": 0.40,
+                "Slow": 0.4,
                 "SlowTime": 1,
                 "CooldownBoost": 0.8,
                 "DamageBoost": 1.2
             }
         ]
     },
-    ["Present Boy"] = {
+    "Present Boy": {
         "Type": "Splash",
         "Image": "rbxassetid://107970281144022",
         "Rarity": "Epic",
@@ -8851,7 +9116,7 @@ return {
             "Y": 0,
             "Z": 0
         },
-    "Upgrades": [
+        "Upgrades": [
             {
                 "Price": 0,
                 "Range": 15,
@@ -8878,14 +9143,17 @@ return {
             }
         ]
     },
-    ["Black Ice Freddy"] = {
+    "Black Ice Freddy": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://86213031666835",
         "Rarity": "Apex",
         "PlacePrice": 30000,
         "Offset": 0.65,
         "Max": 2,
-        "Passive": {"Name": "Glacial Chill", "Description": "Enemies hit are slowed by 65%."},
+        "Passive": {
+            "Name": "Glacial Chill",
+            "Description": "Enemies hit are slowed by 65%."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -8926,21 +9194,24 @@ return {
             }
         ]
     },
-    ["Icetrap"] = {
+    "Icetrap": {
         "Type": "Pierce Spread + Slow",
         "Image": "rbxassetid://135737173585938",
         "Rarity": "Nightmare",
         "PlacePrice": 9500,
         "Offset": 0.25,
         "Max": 2,
-        "Passive": {"Name": "Biting Chill", "Description": "Slows Enemies by 65% for 1.5 seconds"},
+        "Passive": {
+            "Name": "Biting Chill",
+            "Description": "Slows Enemies by 65% for 1.5 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
             "Z": 0
         },
         "Upgrades": [
-                      {
+            {
                 "Price": 0,
                 "Range": 25,
                 "Damage": 4000,
@@ -8974,7 +9245,7 @@ return {
             }
         ]
     },
-    ["Nutcracker Chica"] = {
+    "Nutcracker Chica": {
         "Type": "Single",
         "Image": "rbxassetid://139406919744982",
         "Rarity": "Mythic",
@@ -9013,14 +9284,17 @@ return {
             }
         ]
     },
-    ["Overlord Scott"] = {
+    "Overlord Scott": {
         "Type": "Nuke + Stun",
         "Image": "rbxassetid://135915053690231",
         "Rarity": "Nightmare",
         "PlacePrice": 16000,
         "Offset": -1,
         "Max": 1,
-        "Passive": {"Name": "Shell Shock", "Description": "All enemies are stunned for 1 second on Impact."},
+        "Passive": {
+            "Name": "Shell Shock",
+            "Description": "All enemies are stunned for 1 second on Impact."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9061,14 +9335,17 @@ return {
             }
         ]
     },
-    ["Bouncer"] = {
+    "Bouncer": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://111690369757083",
         "Rarity": "Nightmare",
         "PlacePrice": 4000,
         "Offset": 0.75,
         "Max": 2,
-        "Passive": {"Name": "Chills", "Description": "Attacks slow enemies by 60% for 1.5 seconds."},
+        "Passive": {
+            "Name": "Chills",
+            "Description": "Attacks slow enemies by 60% for 1.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9109,14 +9386,17 @@ return {
             }
         ]
     },
-    ["Frostbite Freddy"] = {
+    "Frostbite Freddy": {
         "Type": "Pierce Spread + Slow",
         "Image": "rbxassetid://105411536427656",
         "Rarity": "Apex",
         "PlacePrice": 30000,
         "Offset": 0.65,
         "Max": 1,
-        "Passive": {"Name": "Snowstorm", "Description": "All enemies in range get slowed by 65%. Attacks apply 0.4s of True Stun."},
+        "Passive": {
+            "Name": "Snowstorm",
+            "Description": "All enemies in range get slowed by 65%. Attacks apply 0.4s of True Stun."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9161,7 +9441,7 @@ return {
             }
         ]
     },
-    ["Frost Plushtrap"] = {
+    "Frost Plushtrap": {
         "Type": "Splash Slow",
         "Image": "rbxassetid://83475745010763",
         "Rarity": "Secret",
@@ -9208,7 +9488,7 @@ return {
             }
         ]
     },
-    ["Winter Soldier Bonnie"] = {
+    "Winter Soldier Bonnie": {
         "Type": "Pierce + Stun",
         "Image": "rbxassetid://124730858766216",
         "Rarity": "Nightmare",
@@ -9255,14 +9535,17 @@ return {
             }
         ]
     },
-    ["Old Man Krampus"] = {
+    "Old Man Krampus": {
         "Type": "AOE Slow + Passive",
         "Image": "rbxassetid://138508234321719",
         "Rarity": "Apex",
         "PlacePrice": 17743,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Tidings Of Charcoal", "Description": "Every 3 seconds applies splash 55% Anti-Regen lasting 5s. All enemies in range are slowed by 60% and take 16.5% more damage."},
+        "Passive": {
+            "Name": "Tidings Of Charcoal",
+            "Description": "Every 3 seconds applies splash 55% Anti-Regen lasting 5s. All enemies in range are slowed by 60% and take 16.5% more damage."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9323,7 +9606,7 @@ return {
             }
         ]
     },
-    ["Glamrock Freddy"] = {
+    "Glamrock Freddy": {
         "Type": "Splash",
         "Image": "rbxassetid://136791971118007",
         "Rarity": "Rare",
@@ -9362,7 +9645,7 @@ return {
             }
         ]
     },
-    ["Glamrock Chica"] = {
+    "Glamrock Chica": {
         "Type": "Splash",
         "Image": "rbxassetid://113567040447471",
         "Rarity": "Epic",
@@ -9401,7 +9684,7 @@ return {
             }
         ]
     },
-    ["Roxanne Wolf"] = {
+    "Roxanne Wolf": {
         "Type": "Pierce",
         "Image": "rbxassetid://130600731757622",
         "Rarity": "Mythic",
@@ -9440,7 +9723,7 @@ return {
             }
         ]
     },
-    ["Montgomery Gator"] = {
+    "Montgomery Gator": {
         "Type": "Cone AOE Continuous",
         "Image": "rbxassetid://107200001609382",
         "Rarity": "Secret",
@@ -9479,7 +9762,7 @@ return {
             }
         ]
     },
-    ["Sunshine"] = {
+    "Sunshine": {
         "Type": "AOE Burn",
         "Image": "rbxassetid://73088362644228",
         "Rarity": "Secret",
@@ -9526,14 +9809,17 @@ return {
             }
         ]
     },
-    ["Moondrop"] = {
+    "Moondrop": {
         "Type": "AOE Stun",
         "Image": "rbxassetid://123157660320018",
         "Rarity": "Nightmare",
         "PlacePrice": 6000,
         "Offset": 0.5,
         "Max": 1,
-        "Passive": {"Name": "Stun", "Description": "Enemies are stunned for 0.5 seconds"},
+        "Passive": {
+            "Name": "Stun",
+            "Description": "Enemies are stunned for 0.5 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9574,7 +9860,7 @@ return {
             }
         ]
     },
-    ["DJ Music Man"] = {
+    "DJ Music Man": {
         "Type": "Cooldown + Range Boost",
         "Image": "rbxassetid://92862090905850",
         "Rarity": "Nightmare",
@@ -9622,14 +9908,17 @@ return {
             }
         ]
     },
-    ["Exotic Butters"] = {
+    "Exotic Butters": {
         "Type": "AOE",
         "Image": "rbxassetid://91688843147628",
         "Rarity": "Nightmare",
         "PlacePrice": 30000,
         "Offset": -2,
         "Max": 1,
-        "Passive": {"Name": "Golden Basket", "Description": "All units in range receive a +75% income boost"},
+        "Passive": {
+            "Name": "Golden Basket",
+            "Description": "All units in range receive a +75% income boost"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -9667,14 +9956,17 @@ return {
             }
         ]
     },
-    ["Wet Floor Bot"] = {
+    "Wet Floor Bot": {
         "Type": "AOE + Cooldown Boost",
         "Image": "rbxassetid://127516376865863",
         "Rarity": "Secret",
         "PlacePrice": 400,
         "Offset": -1.75,
         "Max": 3,
-        "Passive": {"Name": "Cooldown Boost", "Description": "All units in range attack 15% faster"},
+        "Passive": {
+            "Name": "Cooldown Boost",
+            "Description": "All units in range attack 15% faster"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -9712,7 +10004,7 @@ return {
             }
         ]
     },
-    ["Stardrop"] = {
+    "Stardrop": {
         "Type": "Pierce + Passive",
         "Image": "rbxassetid://107273207289047",
         "Rarity": "Nightmare",
@@ -9720,7 +10012,10 @@ return {
         "Offset": 0,
         "Max": 2,
         "NoEnemyAttack": true,
-        "Passive": {"Name": "Starkindred", "Description": "Grants +35% range to all nearby units (+70% shiny). Stardrop and all Daycare Attendant units deal +50% damage if used on the same team."},
+        "Passive": {
+            "Name": "Starkindred",
+            "Description": "Grants +35% range to all nearby units (+70% shiny). Stardrop and all Daycare Attendant units deal +50% damage if used on the same team."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9757,14 +10052,17 @@ return {
             }
         ]
     },
-    ["Coffee"] = {
+    "Coffee": {
         "Type": "Damage + Cooldown Boost",
         "Image": "rbxassetid://131733393221448",
         "Rarity": "Forgotten",
         "PlacePrice": 400,
         "Offset": -0.3,
         "Max": 8,
-        "Passive": {"Name": "Coffee", "Description": "Coffee"},
+        "Passive": {
+            "Name": "Coffee",
+            "Description": "Coffee"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -9806,7 +10104,7 @@ return {
             }
         ]
     },
-    ["Gilded Knight"] = {
+    "Gilded Knight": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://120947166823124",
         "Rarity": "Apex",
@@ -9814,7 +10112,10 @@ return {
         "Offset": 0,
         "Max": 2,
         "NoEnemyAttack": true,
-        "Passive": {"Name": "Grand Equionox", "Description": "Every 3rd attack deals 400% damage and applies 60% Anti-Regen for 3 seconds. Does +1% damage per enemy within range. Units within range gain a +30% income boost."},
+        "Passive": {
+            "Name": "Grand Equionox",
+            "Description": "Every 3rd attack deals 400% damage and applies 60% Anti-Regen for 3 seconds. Does +1% damage per enemy within range. Units within range gain a +30% income boost."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9859,7 +10160,7 @@ return {
             }
         ]
     },
-    ["Glamrock Endo"] = {
+    "Glamrock Endo": {
         "Type": "Damage Boost",
         "Image": "rbxassetid://99936011662010",
         "Rarity": "Secret",
@@ -9903,14 +10204,17 @@ return {
             }
         ]
     },
-    ["Shadow of Afton"] = {
+    "Shadow of Afton": {
         "Type": "Cone AOE + Passive",
         "Image": "rbxassetid://78940990099734",
         "Rarity": "Nightmare",
         "PlacePrice": 14500,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Combined Agony", "Description": "Shadow of Afton deals +50% damage if another Springtrap is on the same team (Icetrap, Clowntrap, etc)"},
+        "Passive": {
+            "Name": "Combined Agony",
+            "Description": "Shadow of Afton deals +50% damage if another Springtrap is on the same team (Icetrap, Clowntrap, etc)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9943,14 +10247,17 @@ return {
             }
         ]
     },
-    ["Blighted Foxy"] = {
+    "Blighted Foxy": {
         "Type": "Slash + Wither",
         "Image": "rbxassetid://111513747219820",
         "Rarity": "Nightmare",
         "PlacePrice": 17500,
         "Offset": 0.4,
         "Max": 2,
-        "Passive": {"Name": "Wither", "Description": "Attacks cause enemies to take +25% more damage from all sources. (+35% if shiny)"},
+        "Passive": {
+            "Name": "Wither",
+            "Description": "Attacks cause enemies to take +25% more damage from all sources. (+35% if shiny)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9995,14 +10302,17 @@ return {
             }
         ]
     },
-    ["Titan Crusher Freddy"] = {
+    "Titan Crusher Freddy": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://78775426136136",
         "Rarity": "Apex",
         "PlacePrice": 80000,
         "Offset": 0.3,
         "Max": 1,
-        "Passive": {"Name": "Giant Slayer", "Description": "Gains a stacking +23.3% damage to imps (Cap of 3). Scaling True Stun, 1 = 0.5s. 2 = 1s. 3 = 1.5s. If a boss is in range acts as max scaling."},
+        "Passive": {
+            "Name": "Giant Slayer",
+            "Description": "Gains a stacking +23.3% damage to imps (Cap of 3). Scaling True Stun, 1 = 0.5s. 2 = 1s. 3 = 1.5s. If a boss is in range acts as max scaling."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10038,7 +10348,8 @@ return {
                 "LargeDamage": 1.7
             }
         ]
-    },    ["Archer Fredeus"] = {
+    },
+    "Archer Fredeus": {
         "Type": "Single",
         "Image": "rbxassetid://113101409953014",
         "Rarity": "Epic",
@@ -10077,7 +10388,7 @@ return {
             }
         ]
     },
-    ["Ares Endoxus"] = {
+    "Ares Endoxus": {
         "Type": "Pierce",
         "Image": "rbxassetid://97883839997626",
         "Rarity": "Nightmare",
@@ -10116,10 +10427,13 @@ return {
             }
         ]
     },
-    ["Foxseidon"] = {
+    "Foxseidon": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://80289284808475",
-        "Passive": {"Name": "Slow", "Description": "Attacks slow enemies by 25%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Attacks slow enemies by 25%"
+        },
         "Rarity": "Secret",
         "PlacePrice": 9000,
         "Offset": 0,
@@ -10164,10 +10478,13 @@ return {
             }
         ]
     },
-    ["Hermes Puppeteer"] = {
+    "Hermes Puppeteer": {
         "Type": "Splash + Booster",
         "Image": "rbxassetid://83624388314614",
-        "Passive": {"Name": "Cooldown Boost", "Description": "All units in range recieve -26% cooldown"},
+        "Passive": {
+            "Name": "Cooldown Boost",
+            "Description": "All units in range recieve -26% cooldown"
+        },
         "Rarity": "Mythic",
         "PlacePrice": 10000,
         "NoEnemyAttack": true,
@@ -10209,7 +10526,7 @@ return {
             }
         ]
     },
-    ["Forge Withered Bonnie"] = {
+    "Forge Withered Bonnie": {
         "Type": "Splash + Burn",
         "Image": "rbxassetid://77325921551661",
         "Rarity": "Nightmare",
@@ -10256,14 +10573,17 @@ return {
             }
         ]
     },
-    ["Zeus Fredeus"] = {
+    "Zeus Fredeus": {
         "Type": "Splash",
         "Image": "rbxassetid://135540199495231",
         "Rarity": "Secret",
         "PlacePrice": 500,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Zeus's Strike", "Description": "Enemies are stunned for 0.2 seconds"},
+        "Passive": {
+            "Name": "Zeus's Strike",
+            "Description": "Enemies are stunned for 0.2 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10304,7 +10624,7 @@ return {
             }
         ]
     },
-    ["Kingtrap"] = {
+    "Kingtrap": {
         "Type": "Booster + Passive",
         "Image": "rbxassetid://85624068831283",
         "Rarity": "Nightmare",
@@ -10312,7 +10632,10 @@ return {
         "NoEnemyAttack": true,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Midas Touch", "Description": "All units in range generate +50% income"},
+        "Passive": {
+            "Name": "Midas Touch",
+            "Description": "All units in range generate +50% income"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10353,14 +10676,17 @@ return {
             }
         ]
     },
-    ["Apollo's Sun"] = {
+    "Apollo's Sun": {
         "Type": "Nuke + Anti Heal",
         "Image": "rbxassetid://120968472381141",
         "Rarity": "Apex",
         "PlacePrice": 35000,
         "Offset": 0,
         "Max": 2,
-         "Passive": {"Name": "Lights Final Toll", "Description": "Enemies struck by Apollo's Flames recieve 80% anti regen for 5 seconds."},
+        "Passive": {
+            "Name": "Lights Final Toll",
+            "Description": "Enemies struck by Apollo's Flames recieve 80% anti regen for 5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10409,7 +10735,7 @@ return {
             }
         ]
     },
-    ["Gaia Chica"] = {
+    "Gaia Chica": {
         "Type": "Pierce Spread + Traps",
         "Image": "rbxassetid://137838669403437",
         "Rarity": "Forgotten",
@@ -10417,7 +10743,10 @@ return {
         "NoEnemyAttack": true,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Flourish", "Description": "Every 6 seconds Gaia Chica summons a cupcake trap with health equal to her damage. (Max traps 200 per placement)"},
+        "Passive": {
+            "Name": "Flourish",
+            "Description": "Every 6 seconds Gaia Chica summons a cupcake trap with health equal to her damage. (Max traps 200 per placement)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10450,7 +10779,7 @@ return {
             }
         ]
     },
-    ["Forest Nymph Bonnie"] = {
+    "Forest Nymph Bonnie": {
         "Type": "Splash + Stun",
         "Image": "rbxassetid://98536829599815",
         "Rarity": "Secret",
@@ -10497,14 +10826,17 @@ return {
             }
         ]
     },
-    ["Glamrock Bonnie"] = {
+    "Glamrock Bonnie": {
         "Type": "Cone AOE + Passive",
         "Image": "rbxassetid://111634413490207",
         "Rarity": "Nightmare",
         "PlacePrice": 42000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Team Boost", "Description": "Glamrock Bonnie Deals +50% damage if on the same team as another bonnie. Attacks apply 17.5% Wither for 1.5 seconds."},
+        "Passive": {
+            "Name": "Team Boost",
+            "Description": "Glamrock Bonnie Deals +50% damage if on the same team as another bonnie. Attacks apply 17.5% Wither for 1.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10549,14 +10881,17 @@ return {
             }
         ]
     },
-    ["Apollo's Moon"] = {
+    "Apollo's Moon": {
         "Type": "Nuke + Passive",
         "Image": "rbxassetid://92233400124489",
         "Rarity": "Apex",
         "PlacePrice": 40000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Dark of The Moon", "Description": "Enemies hit by Apollo's Attacks take +25% more damage for 3 seconds and apply 10% Burn over 1 second. Apollo Moon now does an AOE attack every 8 seconds equal to its damage doing 25% Wither for 3 seconds."},
+        "Passive": {
+            "Name": "Dark of The Moon",
+            "Description": "Enemies hit by Apollo's Attacks take +25% more damage for 3 seconds and apply 10% Burn over 1 second. Apollo Moon now does an AOE attack every 8 seconds equal to its damage doing 25% Wither for 3 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10609,14 +10944,17 @@ return {
             }
         ]
     },
-    ["Soulmate Puppet"] = {
+    "Soulmate Puppet": {
         "Type": "Splash + Passive",
         "Image": "rbxassetid://127566861240944",
         "Rarity": "Nightmare",
         "PlacePrice": 20000,
         "Offset": -0.4,
         "Max": 2,
-        "Passive": {"Name": "Lovestruck", "Description": "All puppets on the same team deal +50% damage including herself. +35% Range to all units (70% Shiny)."},
+        "Passive": {
+            "Name": "Lovestruck",
+            "Description": "All puppets on the same team deal +50% damage including herself. +35% Range to all units (70% Shiny)."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -10630,7 +10968,7 @@ return {
                 "Damage": 15000,
                 "Cooldown": 2.5,
                 "RangeBoost": 1.35,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             },
             {
@@ -10639,7 +10977,7 @@ return {
                 "Damage": 18000,
                 "Cooldown": 2.3,
                 "RangeBoost": 1.35,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             },
             {
@@ -10648,7 +10986,7 @@ return {
                 "Damage": 17000,
                 "Cooldown": 2.2,
                 "RangeBoost": 1.35,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             },
             {
@@ -10657,12 +10995,12 @@ return {
                 "Damage": 25000,
                 "Cooldown": 2,
                 "RangeBoost": 1.35,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             }
         ]
     },
-    ["Ruined Glamrock Bonnie"] = {
+    "Ruined Glamrock Bonnie": {
         "Type": "AOE",
         "Image": "rbxassetid://85309483901437",
         "Rarity": "Secret",
@@ -10701,7 +11039,7 @@ return {
             }
         ]
     },
-    ["Eclipse"] = {
+    "Eclipse": {
         "Type": "Single",
         "Image": "rbxassetid://91251907054257",
         "Rarity": "Mythic",
@@ -10740,7 +11078,7 @@ return {
             }
         ]
     },
-    ["The Mimic"] = {
+    "The Mimic": {
         "Type": "Slash",
         "Image": "rbxassetid://108843809969916",
         "Rarity": "Secret",
@@ -10779,14 +11117,17 @@ return {
             }
         ]
     },
-    ["Vanny"] = {
+    "Vanny": {
         "Type": "Pierce Spread + Slow",
         "Image": "rbxassetid://86358962940619",
         "Rarity": "Nightmare",
         "PlacePrice": 6000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Afton's Agony", "Description": "Enemies hit are slowed by 65%, deal +50% Damage if on the same team a Springtrap unit."},
+        "Passive": {
+            "Name": "Afton's Agony",
+            "Description": "Enemies hit are slowed by 65%, deal +50% Damage if on the same team a Springtrap unit."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10827,14 +11168,17 @@ return {
             }
         ]
     },
-    ["Burntrap"] = {
+    "Burntrap": {
         "Type": "Splash + Anti Regen",
         "Image": "rbxassetid://120446334712341",
         "Rarity": "Nightmare",
         "PlacePrice": 18000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Scourch", "Description": "Attacks apply 100% anti regen for 1.8 seconds."},
+        "Passive": {
+            "Name": "Scourch",
+            "Description": "Attacks apply 100% anti regen for 1.8 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10875,14 +11219,17 @@ return {
             }
         ]
     },
-    ["8-Bit OMC"] = {
+    "8-Bit OMC": {
         "Type": "AOE",
         "Image": "rbxassetid://78679487650695",
         "Rarity": "Nightmare",
         "PlacePrice": 11340,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Double Trouble", "Description": "Deal +33% damage if on the same team as OMC or OMK."},
+        "Passive": {
+            "Name": "Double Trouble",
+            "Description": "Deal +33% damage if on the same team as OMC or OMK."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -10915,7 +11262,7 @@ return {
             }
         ]
     },
-    ["Candy Cadet"] = {
+    "Candy Cadet": {
         "Type": "Cooldown Boost",
         "Image": "rbxassetid://104356297194309",
         "Rarity": "Nightmare",
@@ -10959,7 +11306,7 @@ return {
             }
         ]
     },
-    ["Nightmare Bot"] = {
+    "Nightmare Bot": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://122930850408296",
         "Rarity": "Epic",
@@ -10998,14 +11345,17 @@ return {
             }
         ]
     },
-    ["Fan"] = {
+    "Fan": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://70879844361967",
         "Rarity": "Secret",
         "PlacePrice": 250,
         "Offset": -1,
         "Max": 3,
-        "Passive": {"Name": "Fan", "Description": "Attacks slow enemies by 30%."},
+        "Passive": {
+            "Name": "Fan",
+            "Description": "Attacks slow enemies by 30%."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11017,7 +11367,7 @@ return {
                 "Range": 22,
                 "Damage": 300,
                 "Cooldown": 0.5,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             },
             {
@@ -11025,7 +11375,7 @@ return {
                 "Range": 24,
                 "Damage": 350,
                 "Cooldown": 0.5,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             },
             {
@@ -11033,7 +11383,7 @@ return {
                 "Range": 25,
                 "Damage": 450,
                 "Cooldown": 0.5,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             },
             {
@@ -11041,12 +11391,12 @@ return {
                 "Range": 27,
                 "Damage": 500,
                 "Cooldown": 0.5,
-                "Slow": 0.70,
+                "Slow": 0.7,
                 "SlowTime": 1
             }
         ]
     },
-    ["The Princess"] = {
+    "The Princess": {
         "Type": "Damage + Range Booster",
         "Image": "rbxassetid://81703563273569",
         "Rarity": "Secret",
@@ -11094,14 +11444,17 @@ return {
             }
         ]
     },
-    ["Flaming Springtrap"] = {
+    "Flaming Springtrap": {
         "Type": "Splash Burn + Slow",
         "Image": "rbxassetid://90439626995960",
         "Rarity": "Nightmare",
         "PlacePrice": 16000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Slow Burn", "Description": "Attacks slow enemies by 50%"},
+        "Passive": {
+            "Name": "Slow Burn",
+            "Description": "Attacks slow enemies by 50%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11150,14 +11503,17 @@ return {
             }
         ]
     },
-    ["Queen of Hearts Ballora"] = {
+    "Queen of Hearts Ballora": {
         "Type": "Pierce + Passive",
         "Image": "rbxassetid://120386866285195",
         "Rarity": "Apex",
         "PlacePrice": 60000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Joker", "Description": "The first unit on your team gets an extra placement"},
+        "Passive": {
+            "Name": "Joker",
+            "Description": "The first unit on your team gets an extra placement"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11190,7 +11546,7 @@ return {
             }
         ]
     },
-    ["Sorcerer Ennard"] = {
+    "Sorcerer Ennard": {
         "Type": "Splash",
         "Image": "rbxassetid://108071824061545",
         "Rarity": "Nightmare",
@@ -11229,14 +11585,17 @@ return {
             }
         ]
     },
-    ["Great Escape Freddy"] = {
+    "Great Escape Freddy": {
         "Type": "AOE + Slow",
         "Image": "rbxassetid://103794950872304",
         "Rarity": "Secret",
         "PlacePrice": 11000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies by 40%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies by 40%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11285,14 +11644,17 @@ return {
             }
         ]
     },
-    ["Dread Pirate Foxy"] = {
+    "Dread Pirate Foxy": {
         "Type": "Splash + Stun",
         "Image": "rbxassetid://119908435134121",
         "Rarity": "Nightmare",
         "PlacePrice": 5000,
         "Offset": 0.45,
         "Max": 2,
-        "Passive": {"Name": "Pirate's Curse", "Description": "Attack Slows enemies by 60% for 3 seconds and Stun for 0.5 seconds"},
+        "Passive": {
+            "Name": "Pirate's Curse",
+            "Description": "Attack Slows enemies by 60% for 3 seconds and Stun for 0.5 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11333,14 +11695,17 @@ return {
             }
         ]
     },
-    ["Planet Buster Scott"] = {
+    "Planet Buster Scott": {
         "Type": "Nuke Stun + Passive",
         "Image": "rbxassetid://89049349505606",
         "Rarity": "Apex",
         "PlacePrice": 70000,
         "Offset": 1,
         "Max": 1,
-        "Passive": {"Name": "Devastator", "Description": "Attacks instantly execute enemies under 25% health and bosses and imps at 12.5%. Attacks Stun enemies for 0.75s"},
+        "Passive": {
+            "Name": "Devastator",
+            "Description": "Attacks instantly execute enemies under 25% health and bosses and imps at 12.5%. Attacks Stun enemies for 0.75s"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11381,14 +11746,17 @@ return {
             }
         ]
     },
-    ["Spring Trooper"] = {
+    "Spring Trooper": {
         "Type": "CONE AOE + Anti Regen",
         "Image": "rbxassetid://124509672214842",
         "Rarity": "Nightmare",
         "PlacePrice": 6000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Anti Heal", "Description": "Attacks apply 75% anti regen for 2 seconds"},
+        "Passive": {
+            "Name": "Anti Heal",
+            "Description": "Attacks apply 75% anti regen for 2 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11429,7 +11797,7 @@ return {
             }
         ]
     },
-    ["Android Mangle"] = {
+    "Android Mangle": {
         "Type": "Splash Continuous",
         "Image": "rbxassetid://114065925105074",
         "Rarity": "Nightmare",
@@ -11468,7 +11836,7 @@ return {
             }
         ]
     },
-    ["Raider Freddy"] = {
+    "Raider Freddy": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://73048377720930",
         "Rarity": "Epic",
@@ -11507,7 +11875,7 @@ return {
             }
         ]
     },
-    ["Overseer Lolbit"] = {
+    "Overseer Lolbit": {
         "Type": "Damage + Cooldown Boost",
         "Image": "rbxassetid://139829283293732",
         "Rarity": "Nightmare",
@@ -11555,14 +11923,17 @@ return {
             }
         ]
     },
-    ["Alien Helpy"] = {
+    "Alien Helpy": {
         "Type": "Splash",
         "Image": "rbxassetid://139505346452682",
         "Rarity": "Secret",
         "PlacePrice": 450,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Martian's Boost", "Description": "Boosts all units range by +15% (+43.75% when shiny"},
+        "Passive": {
+            "Name": "Martian's Boost",
+            "Description": "Boosts all units range by +15% (+43.75% when shiny"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -11600,7 +11971,7 @@ return {
             }
         ]
     },
-    ["Cosplushtrap"] = {
+    "Cosplushtrap": {
         "Type": "Cooldown + Range Boost",
         "Image": "rbxassetid://95716821507565",
         "Rarity": "Mythic",
@@ -11648,14 +12019,17 @@ return {
             }
         ]
     },
-    ["Speed Dial"] = {
+    "Speed Dial": {
         "Type": "Pierce + Summon",
         "Image": "rbxassetid://76229204396312",
         "Rarity": "Apex",
         "PlacePrice": 55000,
         "Offset": 0.5,
         "Max": 3,
-        "Passive": {"Name": "Space Rider", "Description": "+25% damage when paired with Astral Bonnie or Planet Buster. Spawns a clone of himself every 13s that has health equal to 30x his damage. Attacks apply 40% anti-regen."},
+        "Passive": {
+            "Name": "Space Rider",
+            "Description": "+25% damage when paired with Astral Bonnie or Planet Buster. Spawns a clone of himself every 13s that has health equal to 30x his damage. Attacks apply 40% anti-regen."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -11709,14 +12083,17 @@ return {
             }
         ]
     },
-    ["Bear5"] = {
+    "Bear5": {
         "Type": "bear5",
         "Image": "rbxassetid://111268061255623",
         "Rarity": "Nightmare",
         "PlacePrice": 555,
         "Offset": 0,
         "Max": 5,
-        "Passive": {"Name": "bear5", "Description": "Attacks slow enemies by bear5%"},
+        "Passive": {
+            "Name": "bear5",
+            "Description": "Attacks slow enemies by bear5%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11757,14 +12134,17 @@ return {
             }
         ]
     },
-    ["Michael Afton"] = {
+    "Michael Afton": {
         "Type": "Trapper",
         "Image": "rbxassetid://114032714827197",
         "Rarity": "Nightmare",
         "PlacePrice": 9000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Controlled Shock", "Description": "Traps Apply true stun for 1 second upon impact with an enemy. (Works on bosses/large enemies) (Max 100 traps per placement)"},
+        "Passive": {
+            "Name": "Controlled Shock",
+            "Description": "Traps Apply true stun for 1 second upon impact with an enemy. (Works on bosses/large enemies) (Max 100 traps per placement)"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -11802,14 +12182,17 @@ return {
             }
         ]
     },
-    ["Michael's Demise"] = {
+    "Michael's Demise": {
         "Type": "Cone AOE + True Stun",
         "Image": "rbxassetid://113159149163905",
         "Rarity": "Forgotten",
         "PlacePrice": 65000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Scooper", "Description": "True stun is applied to enemies for 1.2 seconds"},
+        "Passive": {
+            "Name": "Scooper",
+            "Description": "True stun is applied to enemies for 1.2 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11846,14 +12229,17 @@ return {
             }
         ]
     },
-    ["Steve Raglan"] = {
+    "Steve Raglan": {
         "Type": "CONE AOE + Anti Regen",
         "Image": "rbxassetid://73876097031973",
         "Rarity": "Nightmare",
         "PlacePrice": 14000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Identity Fraud", "Description": "Attacks apply 90% Anti Regen for 10 seconds."},
+        "Passive": {
+            "Name": "Identity Fraud",
+            "Description": "Attacks apply 90% Anti Regen for 10 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11894,14 +12280,17 @@ return {
             }
         ]
     },
-    ["HandUnit"] = {
+    "HandUnit": {
         "Type": "Triple Boost",
         "Image": "rbxassetid://132341684644708",
         "Rarity": "Secret",
         "PlacePrice": 1500,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Helping Hand", "Description": "Buffs all stats by 20%"},
+        "Passive": {
+            "Name": "Helping Hand",
+            "Description": "Buffs all stats by 20%"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -11947,14 +12336,17 @@ return {
             }
         ]
     },
-    ["Orville"] = {
+    "Orville": {
         "Type": "Splash + Slow",
         "Image": "rbxassetid://97997092352387",
         "Rarity": "Secret",
         "PlacePrice": 15000,
         "Offset": -1.2,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Attacks slow enemies by 60%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Attacks slow enemies by 60%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -11995,7 +12387,7 @@ return {
             }
         ]
     },
-    ["Nedd Bear"] = {
+    "Nedd Bear": {
         "Type": "Cone AOE + Stun",
         "Image": "rbxassetid://132984353966246",
         "Rarity": "Mythic",
@@ -12042,7 +12434,7 @@ return {
             }
         ]
     },
-    ["Pig Patch"] = {
+    "Pig Patch": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://101703628765404",
         "Rarity": "Epic",
@@ -12081,7 +12473,7 @@ return {
             }
         ]
     },
-    ["Happy Frog"] = {
+    "Happy Frog": {
         "Type": "Range Booster",
         "Image": "rbxassetid://106312352744687",
         "Rarity": "Secret",
@@ -12124,14 +12516,18 @@ return {
                 "RangeBoost": 1.3
             }
         ]
-    },    ["El Chip"] = {
+    },
+    "El Chip": {
         "Type": "Triple Boost",
         "Image": "rbxassetid://90676082223007",
         "Rarity": "Nightmare",
         "PlacePrice": 1250,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "El Chip", "Description": "Buffs all stats by 25%"},
+        "Passive": {
+            "Name": "El Chip",
+            "Description": "Buffs all stats by 25%"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -12177,7 +12573,7 @@ return {
             }
         ]
     },
-    ["XOR"] = {
+    "XOR": {
         "Type": "Cone AOE + Poison",
         "Image": "rbxassetid://127369273439025",
         "Rarity": "Nightmare",
@@ -12224,14 +12620,17 @@ return {
             }
         ]
     },
-    ["Dee Dee"] = {
+    "Dee Dee": {
         "Type": "Nuke + Stun",
         "Image": "rbxassetid://120034059081977",
         "Rarity": "Nightmare",
         "PlacePrice": 6000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "BOOM BOOM BOOM", "Description": "Stuns lasts for 1 second."},
+        "Passive": {
+            "Name": "BOOM BOOM BOOM",
+            "Description": "Stuns lasts for 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12272,14 +12671,17 @@ return {
             }
         ]
     },
-    ["MXES"] = {
+    "MXES": {
         "Type": "AOE Slow + Poison",
         "Image": "rbxassetid://81772315176647",
         "Rarity": "Apex",
         "PlacePrice": 22222,
         "Offset": 1,
         "Max": 1,
-        "Passive": {"Name": "Corruption", "Description": "Slows enemies by 65% and deals +25% damage in poison. This unit deals 2x damage when enemies are within 10 range of the unit."},
+        "Passive": {
+            "Name": "Corruption",
+            "Description": "Slows enemies by 65% and deals +25% damage in poison. This unit deals 2x damage when enemies are within 10 range of the unit."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12328,14 +12730,17 @@ return {
             }
         ]
     },
-    ["Paperpals"] = {
+    "Paperpals": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://88743014752394",
         "Rarity": "Nightmare",
         "PlacePrice": 25000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies by 65%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies by 65%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12376,14 +12781,17 @@ return {
             }
         ]
     },
-    ["Crying Soul"] = {
+    "Crying Soul": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://123447611843908",
         "Rarity": "Secret",
         "PlacePrice": 350,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies by 25%"},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies by 25%"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12424,14 +12832,17 @@ return {
             }
         ]
     },
-    ["Easter Freddles"] = {
+    "Easter Freddles": {
         "Type": "AOE + Summon",
         "Image": "rbxassetid://98145580021622",
         "Rarity": "Nightmare",
         "PlacePrice": 15000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Helper Freddle", "Description": "Every 10 seconds summons a helper freddle with health equal to 30x damage"},
+        "Passive": {
+            "Name": "Helper Freddle",
+            "Description": "Every 10 seconds summons a helper freddle with health equal to 30x damage"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12476,14 +12887,17 @@ return {
             }
         ]
     },
-    ["Piranha Plushtrap"] = {
+    "Piranha Plushtrap": {
         "Type": "AOE + Slow",
         "Image": "rbxassetid://88671033425525",
         "Rarity": "Nightmare",
         "PlacePrice": 14000,
         "Offset": -0.5,
         "Max": 2,
-        "Passive": {"Name": "The Deep is Calling", "Description": "Attacks apply 50% Slow"},
+        "Passive": {
+            "Name": "The Deep is Calling",
+            "Description": "Attacks apply 50% Slow"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12524,7 +12938,7 @@ return {
             }
         ]
     },
-    ["Liberty Chica"] = {
+    "Liberty Chica": {
         "Type": "Range Booster",
         "Image": "rbxassetid://114586412774377",
         "Rarity": "Epic",
@@ -12568,14 +12982,17 @@ return {
             }
         ]
     },
-    ["Ringmaster Foxy"] = {
+    "Ringmaster Foxy": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://132624234904948",
         "Rarity": "Nightmare",
         "PlacePrice": 11000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Barrage", "Description": "Attacks apply 60% Slow."},
+        "Passive": {
+            "Name": "Barrage",
+            "Description": "Attacks apply 60% Slow."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12616,14 +13033,17 @@ return {
             }
         ]
     },
-    ["Toxic Springtrap"] = {
+    "Toxic Springtrap": {
         "Type": "Pierce Spread + Passive",
         "Image": "rbxassetid://128503373439117",
         "Rarity": "Apex",
         "PlacePrice": 30000,
         "Offset": 0.5,
         "Max": 1,
-        "Passive": {"Name": "Decay", "Description": "Deal +25% Poison damage over 1 second and apply 25% Wither for 2.5 seconds. Every 5th attack deals 1% of total enemy HP left (0.25% to Bosses and Imps)"},
+        "Passive": {
+            "Name": "Decay",
+            "Description": "Deal +25% Poison damage over 1 second and apply 25% Wither for 2.5 seconds. Every 5th attack deals 1% of total enemy HP left (0.25% to Bosses and Imps)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12667,7 +13087,7 @@ return {
                 "Price": 70000,
                 "Range": 40,
                 "Damage": 120000,
-                "Cooldown":3,
+                "Cooldown": 3,
                 "Burn": 30000,
                 "BurnTime": 1,
                 "Wither": 1.25,
@@ -12676,7 +13096,7 @@ return {
             }
         ]
     },
-    ["Sabertooth Foxy"] = {
+    "Sabertooth Foxy": {
         "Type": "Single",
         "Image": "rbxassetid://138570611785526",
         "Rarity": "Epic",
@@ -12695,19 +13115,19 @@ return {
                 "Damage": 800,
                 "Cooldown": 1.2
             },
-                        {
+            {
                 "Price": 650,
                 "Range": 30,
                 "Damage": 900,
                 "Cooldown": 1.1
             },
-                        {
+            {
                 "Price": 775,
                 "Range": 30,
                 "Damage": 1000,
                 "Cooldown": 1.1
             },
-                        {
+            {
                 "Price": 900,
                 "Range": 25,
                 "Damage": 1200,
@@ -12715,14 +13135,17 @@ return {
             }
         ]
     },
-    ["Molten Foxy"] = {
+    "Molten Foxy": {
         "Type": "Splash + Burn",
         "Image": "rbxassetid://121765228317508",
         "Rarity": "Mythic",
         "PlacePrice": 8000,
         "Offset": 0.5,
         "Max": 3,
-        "Passive": {"Name": "Burn", "Description": "Deals 50% burn damage"},
+        "Passive": {
+            "Name": "Burn",
+            "Description": "Deals 50% burn damage"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12737,7 +13160,7 @@ return {
                 "Burn": 2500,
                 "BurnTime": 1
             },
-                        {
+            {
                 "Price": 10500,
                 "Range": 25,
                 "Damage": 3500,
@@ -12745,7 +13168,7 @@ return {
                 "Burn": 2500,
                 "BurnTime": 1
             },
-                        {
+            {
                 "Price": 13000,
                 "Range": 28,
                 "Damage": 4000,
@@ -12753,7 +13176,7 @@ return {
                 "Burn": 2500,
                 "BurnTime": 1
             },
-                        {
+            {
                 "Price": 15500,
                 "Range": 30,
                 "Damage": 5000,
@@ -12763,14 +13186,17 @@ return {
             }
         ]
     },
-    ["Dino Plane Boy"] = {
+    "Dino Plane Boy": {
         "Type": "Continuous Pierce",
         "Image": "rbxassetid://99044609988802",
         "Rarity": "Secret",
         "PlacePrice": 20000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Dino Scout", "Description": "This unit deals 1k - 2k damage every 0.25s. All units in range get +10 - +30% range (62.5% if shiny)"},
+        "Passive": {
+            "Name": "Dino Scout",
+            "Description": "This unit deals 1k - 2k damage every 0.25s. All units in range get +10 - +30% range (62.5% if shiny)"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -12792,14 +13218,14 @@ return {
                 "Cooldown": 0.25,
                 "RangeBoost": 1.15
             },
-                        {
+            {
                 "Price": 27654,
                 "Range": 28,
                 "Damage": 1500,
                 "Cooldown": 0.25,
                 "RangeBoost": 1.2
             },
-                        {
+            {
                 "Price": 31434,
                 "Range": 30,
                 "Damage": 2000,
@@ -12808,14 +13234,17 @@ return {
             }
         ]
     },
-    ["Dino Dreadbear"] = {
+    "Dino Dreadbear": {
         "Type": "Splash Stun",
         "Image": "rbxassetid://81040981850985",
         "Rarity": "Nightmare",
         "PlacePrice": 25000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Wither", "Description": "Stunned enemies are given 7.5% wither for 5 seconds (15% if shiny)"},
+        "Passive": {
+            "Name": "Wither",
+            "Description": "Stunned enemies are given 7.5% wither for 5 seconds (15% if shiny)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12833,7 +13262,7 @@ return {
                 "ShinyWither": 1.15,
                 "WitherTime": 5
             },
-                        {
+            {
                 "Price": 29777,
                 "Range": 30,
                 "Damage": 27500,
@@ -12844,7 +13273,7 @@ return {
                 "ShinyWither": 1.15,
                 "WitherTime": 5
             },
-                        {
+            {
                 "Price": 33222,
                 "Range": 30,
                 "Damage": 31000,
@@ -12855,7 +13284,7 @@ return {
                 "ShinyWither": 1.15,
                 "WitherTime": 5
             },
-                        {
+            {
                 "Price": 40000,
                 "Range": 30,
                 "Damage": 34000,
@@ -12866,7 +13295,7 @@ return {
                 "ShinyWither": 1.15,
                 "WitherTime": 5
             },
-                        {
+            {
                 "Price": 47000,
                 "Range": 32,
                 "Damage": 38000,
@@ -12879,14 +13308,17 @@ return {
             }
         ]
     },
-    ["Chicasaurus Rex"] = {
+    "Chicasaurus Rex": {
         "Type": "Slash + Passive",
         "Image": "rbxassetid://139482431949632",
         "Rarity": "Apex",
         "PlacePrice": 40000,
         "Offset": 2.2,
         "Max": 1,
-        "Passive": {"Name": "Stampede", "Description": "Unleash a stampede that deals 15x this units damage to every enemy on the map, applying 10% wither for 15 seconds (20% if shiny) with a 30s cooldown"},
+        "Passive": {
+            "Name": "Stampede",
+            "Description": "Unleash a stampede that deals 15x this units damage to every enemy on the map, applying 10% wither for 15 seconds (20% if shiny) with a 30s cooldown"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12899,19 +13331,19 @@ return {
                 "Damage": 70000,
                 "Cooldown": 3
             },
-                        {
+            {
                 "Price": 50000,
                 "Range": 27,
                 "Damage": 76000,
                 "Cooldown": 3
             },
-                        {
+            {
                 "Price": 60000,
                 "Range": 30,
                 "Damage": 82000,
                 "Cooldown": 3
             },
-                        {
+            {
                 "Price": 70000,
                 "Range": 35,
                 "Damage": 90000,
@@ -12919,14 +13351,17 @@ return {
             }
         ]
     },
-    ["Chicazilla"] = {
+    "Chicazilla": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://85789248456776",
         "Rarity": "Apex",
         "PlacePrice": 75000,
         "Offset": 2.7,
         "Max": 1,
-        "Passive": {"Name": "Annihilation", "Description": "Charge nuclear breath for 5 seconds to unleash a Continous Cone AOE beam that deals 1.8x of Chicazilla's Damage for 10 seconds. 25 second cooldown."},
+        "Passive": {
+            "Name": "Annihilation",
+            "Description": "Charge nuclear breath for 5 seconds to unleash a Continous Cone AOE beam that deals 1.8x of Chicazilla's Damage for 10 seconds. 25 second cooldown."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12939,19 +13374,19 @@ return {
                 "Damage": 50000,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 80000,
                 "Range": 33,
                 "Damage": 60000,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 90000,
                 "Range": 36,
                 "Damage": 70000,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 100000,
                 "Range": 40,
                 "Damage": 80000,
@@ -12959,14 +13394,17 @@ return {
             }
         ]
     },
-    ["Dino Pals"] = {
+    "Dino Pals": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://121830495643041",
         "Rarity": "Secret",
         "PlacePrice": 6000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Randomizer", "Description": "Every attack has a 33% chance for a different effect of Slow (55% for 1s), Stun (0.5s) and Wither (15% for 1s)"},
+        "Passive": {
+            "Name": "Randomizer",
+            "Description": "Every attack has a 33% chance for a different effect of Slow (55% for 1s), Stun (0.5s) and Wither (15% for 1s)"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -12979,19 +13417,19 @@ return {
                 "Damage": 4000,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 9000,
                 "Range": 21,
                 "Damage": 4500,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 12000,
                 "Range": 24,
                 "Damage": 5200,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 15000,
                 "Range": 28,
                 "Damage": 6000,
@@ -12999,14 +13437,17 @@ return {
             }
         ]
     },
-    ["Triceratops Chica"] = {
+    "Triceratops Chica": {
         "Type": "Slash",
         "Image": "rbxassetid://73945180276553",
         "Rarity": "Nightmare",
         "PlacePrice": 33333,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Triple Trouble", "Description": "Every 3rd attack deals +33% more damage"},
+        "Passive": {
+            "Name": "Triple Trouble",
+            "Description": "Every 3rd attack deals +33% more damage"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13019,19 +13460,19 @@ return {
                 "Damage": 1111,
                 "Cooldown": 1
             },
-                        {
+            {
                 "Price": 37373,
                 "Range": 25,
                 "Damage": 1616,
                 "Cooldown": 0.7
             },
-                        {
+            {
                 "Price": 43434,
                 "Range": 29,
                 "Damage": 2424,
                 "Cooldown": 0.5
             },
-                        {
+            {
                 "Price": 48333,
                 "Range": 33,
                 "Damage": 3333,
@@ -13039,14 +13480,17 @@ return {
             }
         ]
     },
-    ["Paleontologist Springbonnie"] = {
+    "Paleontologist Springbonnie": {
         "Type": "Splash + Booster",
         "Image": "rbxassetid://75314778427273",
         "Rarity": "Nightmare",
         "PlacePrice": 30000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Prehistoric Boost", "Description": "This unit has a cooldown boost of 0.85 - 0.67 (x1.25 if Shiny). Springtraps and prehistoric animatronics receive a 30% damage boost (62.5% if shiny)"},
+        "Passive": {
+            "Name": "Prehistoric Boost",
+            "Description": "This unit has a cooldown boost of 0.85 - 0.67 (x1.25 if Shiny). Springtraps and prehistoric animatronics receive a 30% damage boost (62.5% if shiny)"
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -13061,21 +13505,21 @@ return {
                 "Cooldown": 2,
                 "CooldownBoost": 0.85
             },
-                        {
+            {
                 "Price": 36500,
                 "Range": 22,
                 "Damage": 4600,
                 "Cooldown": 2,
                 "CooldownBoost": 0.77
             },
-                        {
+            {
                 "Price": 40100,
                 "Range": 23,
                 "Damage": 5400,
                 "Cooldown": 2,
                 "CooldownBoost": 0.72
             },
-                        {
+            {
                 "Price": 45900,
                 "Range": 25,
                 "Damage": 6000,
@@ -13084,7 +13528,7 @@ return {
             }
         ]
     },
-    ["Partytime Freddy"] = {
+    "Partytime Freddy": {
         "Type": "Cone AOE 40",
         "Image": "rbxassetid://117911299758586",
         "Rarity": "Epic",
@@ -13103,19 +13547,19 @@ return {
                 "Damage": 500,
                 "Cooldown": 1.2
             },
-                        {
+            {
                 "Price": 850,
                 "Range": 17,
                 "Damage": 600,
                 "Cooldown": 1.1
             },
-                        {
+            {
                 "Price": 950,
                 "Range": 21,
                 "Damage": 700,
                 "Cooldown": 1.05
             },
-                        {
+            {
                 "Price": 1100,
                 "Range": 23,
                 "Damage": 800,
@@ -13123,7 +13567,7 @@ return {
             }
         ]
     },
-    ["Dessert Funtime Foxy"] = {
+    "Dessert Funtime Foxy": {
         "Type": "Splash",
         "Image": "rbxassetid://70374908034183",
         "Rarity": "Mythic",
@@ -13142,19 +13586,19 @@ return {
                 "Damage": 5000,
                 "Cooldown": 1.8
             },
-                        {
+            {
                 "Price": 6500,
                 "Range": 23,
                 "Damage": 6000,
                 "Cooldown": 1.7
             },
-                        {
+            {
                 "Price": 7500,
                 "Range": 25,
                 "Damage": 7000,
                 "Cooldown": 1.6
             },
-                        {
+            {
                 "Price": 9000,
                 "Range": 28,
                 "Damage": 9000,
@@ -13162,14 +13606,17 @@ return {
             }
         ]
     },
-    ["Hot Air Balloon Boy"] = {
+    "Hot Air Balloon Boy": {
         "Type": "Splash + Burn",
         "Image": "rbxassetid://81085704927371",
         "Rarity": "Nightmare",
         "PlacePrice": 40000,
         "Offset": -3,
         "Max": 3,
-        "Passive": {"Name": "Burn", "Description": "Deals 50% burn damage"},
+        "Passive": {
+            "Name": "Burn",
+            "Description": "Deals 50% burn damage"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13184,7 +13631,7 @@ return {
                 "Burn": 3000,
                 "BurnTime": 1
             },
-                        {
+            {
                 "Price": 45000,
                 "Range": 32,
                 "Damage": 6500,
@@ -13192,7 +13639,7 @@ return {
                 "Burn": 3250,
                 "BurnTime": 1
             },
-                        {
+            {
                 "Price": 50000,
                 "Range": 33,
                 "Damage": 7000,
@@ -13200,7 +13647,7 @@ return {
                 "Burn": 3500,
                 "BurnTime": 1
             },
-                        {
+            {
                 "Price": 60000,
                 "Range": 35,
                 "Damage": 8000,
@@ -13210,14 +13657,17 @@ return {
             }
         ]
     },
-    ["Blimp Boy"] = {
+    "Blimp Boy": {
         "Type": "Nuke + Burn",
         "Image": "rbxassetid://136167482897006",
         "Rarity": "Nightmare",
         "PlacePrice": 75000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Anniversary Extravaganza", "Description": "Drops an atomic present that deals 75x damage with 20% wither and 60% slow for 10 seconds every 40 seconds"},
+        "Passive": {
+            "Name": "Anniversary Extravaganza",
+            "Description": "Drops an atomic present that deals 75x damage with 20% wither and 60% slow for 10 seconds every 40 seconds"
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13232,7 +13682,7 @@ return {
                 "Burn": 5000,
                 "BurnTime": 0.5
             },
-                        {
+            {
                 "Price": 90000,
                 "Range": 40,
                 "Damage": 8000,
@@ -13240,7 +13690,7 @@ return {
                 "Burn": 5000,
                 "BurnTime": 0.5
             },
-                        {
+            {
                 "Price": 100000,
                 "Range": 45,
                 "Damage": 9000,
@@ -13248,7 +13698,7 @@ return {
                 "Burn": 5000,
                 "BurnTime": 0.5
             },
-                        {
+            {
                 "Price": 111111,
                 "Range": 50,
                 "Damage": 10000,
@@ -13258,7 +13708,7 @@ return {
             }
         ]
     },
-    ["Fossilized Puppet"] = {
+    "Fossilized Puppet": {
         "Type": "Chain Splash + Passive",
         "Image": "rbxassetid://102097033004654",
         "Rarity": "Forgotten",
@@ -13266,7 +13716,10 @@ return {
         "Offset": 0,
         "Max": 2,
         "MaxChain": 12,
-        "Passive": {"Name": "Hatchlings Fury", "Description": "Spawns in 3 single target turrets (up to 6 in total) that deal 1k-2.2k damage every 0.25 seconds. Boosts all units range by +50% (+87.5% if shiny). Hatchlings charge for 1s, dealing 2x their damage in AOE."},
+        "Passive": {
+            "Name": "Hatchlings Fury",
+            "Description": "Spawns in 3 single target turrets (up to 6 in total) that deal 1k-2.2k damage every 0.25 seconds. Boosts all units range by +50% (+87.5% if shiny). Hatchlings charge for 1s, dealing 2x their damage in AOE."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -13280,43 +13733,91 @@ return {
                 "Damage": 60000,
                 "Cooldown": 5,
                 "RangeBoost": 1.2,
-                "Mini Fossilized Puppet Turret1": {"Range": 28, "Damage": 1000, "Cooldown": 0.25},
-                "Mini Fossilized Puppet Turret2": {"Range": 28, "Damage": 1000, "Cooldown": 0.25},
-                "Mini Fossilized Puppet Turret3": {"Range": 28, "Damage": 1000, "Cooldown": 0.25}
+                "Mini Fossilized Puppet Turret1": {
+                    "Range": 28,
+                    "Damage": 1000,
+                    "Cooldown": 0.25
+                },
+                "Mini Fossilized Puppet Turret2": {
+                    "Range": 28,
+                    "Damage": 1000,
+                    "Cooldown": 0.25
+                },
+                "Mini Fossilized Puppet Turret3": {
+                    "Range": 28,
+                    "Damage": 1000,
+                    "Cooldown": 0.25
+                }
             },
-                        {
+            {
                 "Price": 60000,
                 "Range": 31,
                 "Damage": 70000,
                 "Cooldown": 5,
                 "RangeBoost": 1.2,
-                "Mini Fossilized Puppet Turret1": {"Range": 31, "Damage": 1400, "Cooldown": 0.25},
-                "Mini Fossilized Puppet Turret2": {"Range": 31, "Damage": 1400, "Cooldown": 0.25},
-                "Mini Fossilized Puppet Turret3": {"Range": 31, "Damage": 1400, "Cooldown": 0.25}
+                "Mini Fossilized Puppet Turret1": {
+                    "Range": 31,
+                    "Damage": 1400,
+                    "Cooldown": 0.25
+                },
+                "Mini Fossilized Puppet Turret2": {
+                    "Range": 31,
+                    "Damage": 1400,
+                    "Cooldown": 0.25
+                },
+                "Mini Fossilized Puppet Turret3": {
+                    "Range": 31,
+                    "Damage": 1400,
+                    "Cooldown": 0.25
+                }
             },
-                        {
+            {
                 "Price": 75000,
                 "Range": 33,
                 "Damage": 85000,
                 "Cooldown": 5,
                 "RangeBoost": 1.2,
-                "Mini Fossilized Puppet Turret1": {"Range": 33, "Damage": 1700, "Cooldown": 0.25},
-                "Mini Fossilized Puppet Turret2": {"Range": 33, "Damage": 1700, "Cooldown": 0.25},
-                "Mini Fossilized Puppet Turret3": {"Range": 33, "Damage": 1700, "Cooldown": 0.25}
+                "Mini Fossilized Puppet Turret1": {
+                    "Range": 33,
+                    "Damage": 1700,
+                    "Cooldown": 0.25
+                },
+                "Mini Fossilized Puppet Turret2": {
+                    "Range": 33,
+                    "Damage": 1700,
+                    "Cooldown": 0.25
+                },
+                "Mini Fossilized Puppet Turret3": {
+                    "Range": 33,
+                    "Damage": 1700,
+                    "Cooldown": 0.25
+                }
             },
-                        {
+            {
                 "Price": 90000,
                 "Range": 35,
                 "Damage": 110000,
                 "Cooldown": 5,
                 "RangeBoost": 1.2,
-                "Mini Fossilized Puppet Turret1": {"Range": 35, "Damage": 2200, "Cooldown": 0.25},
-                "Mini Fossilized Puppet Turret2": {"Range": 35, "Damage": 2200, "Cooldown": 0.25},
-                "Mini Fossilized Puppet Turret3": {"Range": 35, "Damage": 2200, "Cooldown": 0.25}
+                "Mini Fossilized Puppet Turret1": {
+                    "Range": 35,
+                    "Damage": 2200,
+                    "Cooldown": 0.25
+                },
+                "Mini Fossilized Puppet Turret2": {
+                    "Range": 35,
+                    "Damage": 2200,
+                    "Cooldown": 0.25
+                },
+                "Mini Fossilized Puppet Turret3": {
+                    "Range": 35,
+                    "Damage": 2200,
+                    "Cooldown": 0.25
+                }
             }
         ]
     },
-    ["LeBronnie"] = {
+    "LeBronnie": {
         "Type": "Chain",
         "Image": "rbxassetid://94059367110525",
         "Rarity": "Nightmare",
@@ -13324,7 +13825,10 @@ return {
         "Offset": 1,
         "Max": 1,
         "MaxChain": 15,
-        "Passive": {"Name": "Slam Dunk", "Description": "This unit deals x23 equal to its damage as Nuke applying 23% Wither for 23 seconds. 23 second cooldown."},
+        "Passive": {
+            "Name": "Slam Dunk",
+            "Description": "This unit deals x23 equal to its damage as Nuke applying 23% Wither for 23 seconds. 23 second cooldown."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13337,19 +13841,19 @@ return {
                 "Damage": 13000,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 36000,
                 "Range": 28,
                 "Damage": 17000,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 49000,
                 "Range": 31,
                 "Damage": 20000,
                 "Cooldown": 2
             },
-                        {
+            {
                 "Price": 62000,
                 "Range": 35,
                 "Damage": 23000,
@@ -13357,14 +13861,17 @@ return {
             }
         ]
     },
-    ["Vanessa"] = {
+    "Vanessa": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://91282011150521",
         "Rarity": "Epic",
         "PlacePrice": 400,
         "Offset": 0.3,
         "Max": 3,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies by 20%."},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Slows enemies by 20%."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13376,7 +13883,7 @@ return {
                 "Range": 15,
                 "Damage": 250,
                 "Cooldown": 1,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 1
             },
             {
@@ -13384,7 +13891,7 @@ return {
                 "Range": 18,
                 "Damage": 325,
                 "Cooldown": 1,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 1
             },
             {
@@ -13392,7 +13899,7 @@ return {
                 "Range": 20,
                 "Damage": 400,
                 "Cooldown": 1,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 1
             },
             {
@@ -13400,12 +13907,12 @@ return {
                 "Range": 22,
                 "Damage": 450,
                 "Cooldown": 1,
-                "Slow": 0.80,
+                "Slow": 0.8,
                 "SlowTime": 1
             }
         ]
     },
-    ["Gregory"] = {
+    "Gregory": {
         "Type": "Continous Splash",
         "Image": "rbxassetid://127074941934847",
         "Rarity": "Mythic",
@@ -13444,14 +13951,17 @@ return {
             }
         ]
     },
-    ["Tiger Rock"] = {
+    "Tiger Rock": {
         "Type": "Slash",
         "Image": "rbxassetid://91972547700934",
         "Rarity": "Secret",
         "PlacePrice": 30000,
         "Offset": 1,
         "Max": 3,
-        "Passive": {"Name": "Rock On", "Description": "Attacks apply 80% Anti Regen for 1.5 seconds."},
+        "Passive": {
+            "Name": "Rock On",
+            "Description": "Attacks apply 80% Anti Regen for 1.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13492,14 +14002,17 @@ return {
             }
         ]
     },
-    ["Funtime Chica"] = {
+    "Funtime Chica": {
         "Type": "Cone AOE + Boost",
         "Image": "rbxassetid://103017752267035",
         "Rarity": "Nightmare",
         "PlacePrice": 20000,
         "Offset": 0.4,
         "Max": 2,
-        "Passive": {"Name": "Smile! Say Cheese!", "Description": "Provides a 1.25x-1.55x range boost to all units in range. Also boosts all Sister Location and Chica units damage on the team by 1.3x (62.5% when Shiny)."},
+        "Passive": {
+            "Name": "Smile! Say Cheese!",
+            "Description": "Provides a 1.25x-1.55x range boost to all units in range. Also boosts all Sister Location and Chica units damage on the team by 1.3x (62.5% when Shiny)."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -13537,14 +14050,17 @@ return {
             }
         ]
     },
-    ["ITP Springbonnie"] = {
+    "ITP Springbonnie": {
         "Type": "Continous Splash + Passive",
         "Image": "rbxassetid://72646308433490",
         "Rarity": "Nightmare",
         "PlacePrice": 39000,
         "Offset": 0.5,
         "Max": 1,
-        "Passive": {"Name": "Far Beyond Return", "Description": "This unit deals 2x damage when enemies are beyond 20 range of him."},
+        "Passive": {
+            "Name": "Far Beyond Return",
+            "Description": "This unit deals 2x damage when enemies are beyond 20 range of him."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -13578,14 +14094,17 @@ return {
             }
         ]
     },
-    ["Prototype Glamrock Freddy"] = {
+    "Prototype Glamrock Freddy": {
         "Type": "Continous Splash Stun",
         "Image": "rbxassetid://80796451549035",
         "Rarity": "Secret",
         "PlacePrice": 12000,
         "Offset": 1,
         "Max": 3,
-        "Passive": {"Name": "Shock", "Description": "Stuns enemies for 0.5 seconds."},
+        "Passive": {
+            "Name": "Shock",
+            "Description": "Stuns enemies for 0.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13626,14 +14145,17 @@ return {
             }
         ]
     },
-    ["Fetch"] = {
+    "Fetch": {
         "Type": "Splash + Bleed",
         "Image": "rbxassetid://77053332392875",
         "Rarity": "Secret",
         "PlacePrice": 400,
         "Offset": -0.5,
         "Max": 3,
-        "Passive": {"Name": "Bleed", "Description": "Attacks apply 50% Anti Regen for 1 second."},
+        "Passive": {
+            "Name": "Bleed",
+            "Description": "Attacks apply 50% Anti Regen for 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13674,14 +14196,17 @@ return {
             }
         ]
     },
-    ["Jackie"] = {
+    "Jackie": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://118660039926391",
         "Rarity": "Nightmare",
         "PlacePrice": 6000,
         "Offset": -1.3,
         "Max": 2,
-        "Passive": {"Name": "Time to Play!", "Description": "Attacks apply 60% slow for 5.5 seconds and Stun enemies for 0.4 seconds."},
+        "Passive": {
+            "Name": "Time to Play!",
+            "Description": "Attacks apply 60% slow for 5.5 seconds and Stun enemies for 0.4 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13722,14 +14247,17 @@ return {
             }
         ]
     },
-    ["The Blob"] = {
+    "The Blob": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://75705628462698",
         "Rarity": "Nightmare",
         "PlacePrice": 45000,
         "Offset": 0.5,
         "Max": 1,
-        "Passive": {"Name": "Tangled", "Description": "The 6th slot on your team gets -1 placement but gains a +150% damage bonus. Additionally, The Blob benefits from every passive boost in the game."},
+        "Passive": {
+            "Name": "Tangled",
+            "Description": "The 6th slot on your team gets -1 placement but gains a +150% damage bonus. Additionally, The Blob benefits from every passive boost in the game."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13762,14 +14290,17 @@ return {
             }
         ]
     },
-    ["Bidybab"] = {
+    "Bidybab": {
         "Type": "Single Stun",
         "Image": "rbxassetid://114438279460444",
         "Rarity": "Epic",
         "PlacePrice": 4000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Stun", "Description": "Attack stun enemies for 0.5 seconds."},
+        "Passive": {
+            "Name": "Stun",
+            "Description": "Attack stun enemies for 0.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13810,14 +14341,17 @@ return {
             }
         ]
     },
-    ["Chica's Magic Rainbow"] = {
+    "Chica's Magic Rainbow": {
         "Type": "Continous Pierce Spread",
         "Image": "rbxassetid://100362118597526",
         "Rarity": "Nightmare",
         "PlacePrice": 41000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Colors of the Rainbow", "Description": "This unit gains a stackable +20% damage bonus for each unique rarity on the team."},
+        "Passive": {
+            "Name": "Colors of the Rainbow",
+            "Description": "This unit gains a stackable +20% damage bonus for each unique rarity on the team."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13850,14 +14384,17 @@ return {
             }
         ]
     },
-    ["Carnie"] = {
+    "Carnie": {
         "Type": "Cone AOE Burn + Stun",
         "Image": "rbxassetid://105073583638652",
         "Rarity": "Nightmare",
         "PlacePrice": 25000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Mayhem", "Description": "Attacks Burn enemies at 25% and Stun for 1 second."},
+        "Passive": {
+            "Name": "Mayhem",
+            "Description": "Attacks Burn enemies at 25% and Stun for 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13906,7 +14443,7 @@ return {
             }
         ]
     },
-    ["Minireenas"] = {
+    "Minireenas": {
         "Type": "Single",
         "Image": "rbxassetid://120057608216168",
         "Rarity": "Epic",
@@ -13945,14 +14482,17 @@ return {
             }
         ]
     },
-    ["JJ"] = {
+    "JJ": {
         "Type": "Explosion",
         "Image": "rbxassetid://83426992973072",
         "Rarity": "Secret",
         "PlacePrice": 15000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Hello? Hi!", "Description": "Gains +50% more damage for every Balloon Boy variant on your team."},
+        "Passive": {
+            "Name": "Hello? Hi!",
+            "Description": "Gains +50% more damage for every Balloon Boy variant on your team."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -13985,14 +14525,17 @@ return {
             }
         ]
     },
-    ["Star Spangled Orville"] = {
+    "Star Spangled Orville": {
         "Type": "Explosive Wither",
         "Image": "rbxassetid://127898009659800",
         "Rarity": "Nightmare",
         "PlacePrice": 44000,
         "Offset": -1.5,
         "Max": 2,
-        "Passive": {"Name": "Fireworks All Around", "Description": "Attacks apply 10% Wither for 2 seconds (20% if shiny). Every 15 seconds deals AOE damage equal to 15x this units damage in Burn."},
+        "Passive": {
+            "Name": "Fireworks All Around",
+            "Description": "Attacks apply 10% Wither for 2 seconds (20% if shiny). Every 15 seconds deals AOE damage equal to 15x this units damage in Burn."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14037,7 +14580,7 @@ return {
             }
         ]
     },
-    ["Sparky"] = {
+    "Sparky": {
         "Type": "Chain",
         "Image": "rbxassetid://106044817477654",
         "Rarity": "Forgotten",
@@ -14045,7 +14588,10 @@ return {
         "Offset": 0.4,
         "Max": 1,
         "MaxChain": 3,
-        "Passive": {"Name": "Power Hungry", "Description": "Attacks hit up to 3 different targets. Gains +0.85% extra damage per enemy killed up to +70.55% and gains +0.5% extra damage for every 1 base HP lost."},
+        "Passive": {
+            "Name": "Power Hungry",
+            "Description": "Attacks hit up to 3 different targets. Gains +0.85% extra damage per enemy killed up to +70.55% and gains +0.5% extra damage for every 1 base HP lost."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14078,14 +14624,17 @@ return {
             }
         ]
     },
-    ["Mr Hippo"] = {
+    "Mr Hippo": {
         "Type": "Trapper + Turret",
         "Image": "rbxassetid://73851279283098",
         "Rarity": "Apex",
         "PlacePrice": 68000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Life Story or Something", "Description": "Mr Hippo's turret does 5k-11.5k every 0.5s while applying 20% Wither for 5 seconds. Traps do damage equal to Mr Hippo and True Stun for 2.5 seconds (Cap 100)."},
+        "Passive": {
+            "Name": "Life Story or Something",
+            "Description": "Mr Hippo's turret does 5k-11.5k every 0.5s while applying 20% Wither for 5 seconds. Traps do damage equal to Mr Hippo and True Stun for 2.5 seconds (Cap 100)."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14098,39 +14647,58 @@ return {
                 "Range": 30,
                 "Damage": 30000,
                 "Cooldown": 5,
-                "HippoTurret1": {"Range": 50, "Damage": 5000, "Cooldown": 0.5}
+                "HippoTurret1": {
+                    "Range": 50,
+                    "Damage": 5000,
+                    "Cooldown": 0.5
+                }
             },
             {
                 "Price": 75000,
                 "Range": 33,
                 "Damage": 40000,
                 "Cooldown": 5,
-                "HippoTurret1": {"Range": 50, "Damage": 7000, "Cooldown": 0.5}
+                "HippoTurret1": {
+                    "Range": 50,
+                    "Damage": 7000,
+                    "Cooldown": 0.5
+                }
             },
             {
                 "Price": 82000,
                 "Range": 36,
                 "Damage": 50000,
                 "Cooldown": 5,
-                "HippoTurret1": {"Range": 50, "Damage": 9000, "Cooldown": 0.5}
+                "HippoTurret1": {
+                    "Range": 50,
+                    "Damage": 9000,
+                    "Cooldown": 0.5
+                }
             },
             {
                 "Price": 91500,
                 "Range": 40,
                 "Damage": 60000,
                 "Cooldown": 5,
-                "HippoTurret1": {"Range": 50, "Damage": 11500, "Cooldown": 0.5}
+                "HippoTurret1": {
+                    "Range": 50,
+                    "Damage": 11500,
+                    "Cooldown": 0.5
+                }
             }
         ]
     },
-    ["Jester Puppet"] = {
+    "Jester Puppet": {
         "Type": "Splash Wither + Passive",
         "Image": "rbxassetid://112806747062575",
         "Rarity": "Apex",
         "PlacePrice": 50000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Two Faced", "Description": "Attacks apply 30% Wither for 1.5 second. Performs an AOE attack every 10 seconds that deals 5x this units damage."},
+        "Passive": {
+            "Name": "Two Faced",
+            "Description": "Attacks apply 30% Wither for 1.5 second. Performs an AOE attack every 10 seconds that deals 5x this units damage."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14176,14 +14744,17 @@ return {
             }
         ]
     },
-    ["Gilded Jester Puppet"] = {
+    "Gilded Jester Puppet": {
         "Type": "Splash Wither + Passive",
         "Image": "rbxassetid://103324053538505",
         "Rarity": "Apex",
         "PlacePrice": 25000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Grand Harlequin", "Description": "Attacks apply 30% Wither for 1.5 seconds. Performs an AOE attack every 10 seconds that deals 5x this units damage. Units within range gain a +30% income boost."},
+        "Passive": {
+            "Name": "Grand Harlequin",
+            "Description": "Attacks apply 30% Wither for 1.5 seconds. Performs an AOE attack every 10 seconds that deals 5x this units damage. Units within range gain a +30% income boost."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14232,14 +14803,18 @@ return {
                 "MoneyBoost": 1.3
             }
         ]
-    },    ["Cyber Police Roxy"] = {
+    },
+    "Cyber Police Roxy": {
         "Type": "Pierce Wither",
         "Image": "rbxassetid://126934941324179",
         "Rarity": "Secret",
         "PlacePrice": 3000,
         "Offset": 0.6,
         "Max": 1,
-        "Passive": {"Name": "Codebreak", "Description": "Damaged enemies take 12.5% Wither for 1 second."},
+        "Passive": {
+            "Name": "Codebreak",
+            "Description": "Damaged enemies take 12.5% Wither for 1 second."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14285,14 +14860,17 @@ return {
             }
         ]
     },
-    ["Flipside Freddy"] = {
+    "Flipside Freddy": {
         "Type": "Slash + Passive",
         "Image": "rbxassetid://98510603589544",
         "Rarity": "Nightmare",
         "PlacePrice": 99999,
         "Offset": 0.7,
         "Max": 1,
-        "Passive": {"Name": "Software Malfunction", "Description": "Enemies/Imps/Bosses that reach exits proc a 4 second portal that sends enemies back to the entrace they came from (60 second Global Cooldown). Gains a +25% damage bonus if other Glitched units are on the same team."},
+        "Passive": {
+            "Name": "Software Malfunction",
+            "Description": "Enemies/Imps/Bosses that reach exits proc a 4 second portal that sends enemies back to the entrace they came from (60 second Global Cooldown). Gains a +25% damage bonus if other Glitched units are on the same team."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14326,14 +14904,17 @@ return {
             }
         ]
     },
-    ["Engineer Chica"] = {
+    "Engineer Chica": {
         "Type": "Explosion + Passive",
         "Image": "rbxassetid://93532497758458",
         "Rarity": "Nightmare",
         "PlacePrice": 39000,
         "Offset": -1,
         "Max": 2,
-        "Passive": {"Name": "Ironpost", "Description": "Every 30 seconds this unit deals 120x its current damage as Nuke, True Stunning for 2.5 seconds."},
+        "Passive": {
+            "Name": "Ironpost",
+            "Description": "Every 30 seconds this unit deals 120x its current damage as Nuke, True Stunning for 2.5 seconds."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14367,7 +14948,7 @@ return {
             }
         ]
     },
-    ["Sandy Helpy"] = {
+    "Sandy Helpy": {
         "Type": "Splash",
         "Image": "rbxassetid://133012407919193",
         "Rarity": "Epic",
@@ -14406,7 +14987,7 @@ return {
             }
         ]
     },
-    ["Heatwave Sun"] = {
+    "Heatwave Sun": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://75319446250390",
         "Rarity": "Mythic",
@@ -14445,14 +15026,17 @@ return {
             }
         ]
     },
-    ["El Jellychip"] = {
+    "El Jellychip": {
         "Type": "Zap + Boost",
         "Image": "rbxassetid://136969034043541",
         "Rarity": "Secret",
         "PlacePrice": 12000,
         "Offset": 0.3,
         "Max": 1,
-        "Passive": {"Name": "Zap", "Description": "Attacks hit up to 10 enemies, stunning them for 0.5 seconds. Boosts units cooldown by 0.9-0.73 (0.675-0.55 if shiny."},
+        "Passive": {
+            "Name": "Zap",
+            "Description": "Attacks hit up to 10 enemies, stunning them for 0.5 seconds. Boosts units cooldown by 0.9-0.73 (0.675-0.55 if shiny."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14498,14 +15082,17 @@ return {
             }
         ]
     },
-    ["Molten Serpent"] = {
+    "Molten Serpent": {
         "Type": "Chain Melee",
         "Image": "rbxassetid://125846840665791",
         "Rarity": "Nightmare",
         "PlacePrice": 35000,
         "Offset": -3.7,
         "Max": 2,
-        "Passive": {"Name": "Bleed", "Description": "Attacks hit up to 5 enemies, applying 100% Anti Regen for 1 second."},
+        "Passive": {
+            "Name": "Bleed",
+            "Description": "Attacks hit up to 5 enemies, applying 100% Anti Regen for 1 second."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14546,14 +15133,17 @@ return {
             }
         ]
     },
-    ["Tropic Terror Duo"] = {
+    "Tropic Terror Duo": {
         "Type": "Cone AOE Slow + Passive",
         "Image": "rbxassetid://99621129596373",
         "Rarity": "Forgotten",
         "PlacePrice": 33333,
         "Offset": 0.5,
         "Max": 1,
-        "Passive": {"Name": "Coastal Echo", "Description": "Main attack applies 60% Slow. This duo deploys a waterwall lasting for 3s, dealing 2x their damage and applying 25% Burn and 70% Slow for 3s (7s cooldown)."},
+        "Passive": {
+            "Name": "Coastal Echo",
+            "Description": "Main attack applies 60% Slow. This duo deploys a waterwall lasting for 3s, dealing 2x their damage and applying 25% Burn and 70% Slow for 3s (7s cooldown)."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14567,8 +15157,8 @@ return {
                 "Cooldown": 1,
                 "Slow": 0.4,
                 "SlowTime": 2,
-	            "Burn": 4250,
-	            "BurnTime": 5
+                "Burn": 4250,
+                "BurnTime": 5
             },
             {
                 "Price": 44444,
@@ -14577,8 +15167,8 @@ return {
                 "Cooldown": 1,
                 "Slow": 0.4,
                 "SlowTime": 2,
-	            "Burn": 5250,
-	            "BurnTime": 5
+                "Burn": 5250,
+                "BurnTime": 5
             },
             {
                 "Price": 55555,
@@ -14587,8 +15177,8 @@ return {
                 "Cooldown": 0.9,
                 "Slow": 0.4,
                 "SlowTime": 2,
-	            "Burn": 6000,
-	            "BurnTime": 5
+                "Burn": 6000,
+                "BurnTime": 5
             },
             {
                 "Price": 66666,
@@ -14598,18 +15188,21 @@ return {
                 "Slow": 0.4,
                 "SlowTime": 2,
                 "Burn": 6750,
-	            "BurnTime": 5
+                "BurnTime": 5
             }
         ]
     },
-    ["Strawbaby"] = {
+    "Strawbaby": {
         "Type": "Splash Slow",
         "Image": "rbxassetid://75900449156657",
         "Rarity": "Secret",
         "PlacePrice": 9000,
         "Offset": 0,
         "Max": 3,
-        "Passive": {"Name": "Slow", "Description": "Attacks slow enemies by 50% for 3 seconds."},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Attacks slow enemies by 50% for 3 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14650,14 +15243,17 @@ return {
             }
         ]
     },
-    ["Aquatic Ballora"] = {
+    "Aquatic Ballora": {
         "Type": "Pierce Spread",
         "Image": "rbxassetid://109953928431580",
         "Rarity": "Apex",
         "PlacePrice": 22000,
         "Offset": 0.4,
         "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Attacks slow enemies by 65% for 2.5 seconds."},
+        "Passive": {
+            "Name": "Slow",
+            "Description": "Attacks slow enemies by 65% for 2.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14698,14 +15294,17 @@ return {
             }
         ]
     },
-    ["Oceanic Ballora"] = {
+    "Oceanic Ballora": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://109670372514457",
         "Rarity": "Apex",
         "PlacePrice": 35000,
         "Offset": 0.4,
         "Max": 1,
-        "Passive": {"Name": "Amplifying Wave", "Description": "This unit gains scaling Slow and Wither based on nearby enemies within range: up to 70% Slow and 20% Wither at 10+ enemies. Oceanic Ballora also unleashes a Tidal Wave every 10 seconds that deals 5x its current damage."},
+        "Passive": {
+            "Name": "Amplifying Wave",
+            "Description": "This unit gains scaling Slow and Wither based on nearby enemies within range: up to 70% Slow and 20% Wither at 10+ enemies. Oceanic Ballora also unleashes a Tidal Wave every 10 seconds that deals 5x its current damage."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14739,14 +15338,17 @@ return {
             }
         ]
     },
-    ["Drained Coffee"] = {
+    "Drained Coffee": {
         "Type": "Splash",
         "Image": "rbxassetid://88006758893374",
         "Rarity": "Secret",
         "PlacePrice": 750,
         "Offset": -0.5,
         "Max": 3,
-        "Passive": {"Name": "Fish in a Bowl (Coffee?)", "Description": "Boosts units damage by 1.15x (43.75% if shiny."},
+        "Passive": {
+            "Name": "Fish in a Bowl (Coffee?)",
+            "Description": "Boosts units damage by 1.15x (43.75% if shiny."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14784,14 +15386,17 @@ return {
             }
         ]
     },
-    ["Sun Guardian Freddy"] = {
+    "Sun Guardian Freddy": {
         "Type": "Explosion",
         "Image": "rbxassetid://134863215965587",
         "Rarity": "Nightmare",
         "PlacePrice": 29000,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Burn", "Description": "Deals 25% burn damage over 2 seconds."},
+        "Passive": {
+            "Name": "Burn",
+            "Description": "Deals 25% burn damage over 2 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14832,14 +15437,17 @@ return {
             }
         ]
     },
-    ["Waterworks Foxy"] = {
+    "Waterworks Foxy": {
         "Type": "Continous Splash Slow",
         "Image": "rbxassetid://121168642208042",
         "Rarity": "Nightmare",
         "PlacePrice": 3000,
         "Offset": -1,
         "Max": 1,
-        "Passive": {"Name": "Water Pistol", "Description": "Enemies hit by this unit are slowed by 65% for 0.5 seconds."},
+        "Passive": {
+            "Name": "Water Pistol",
+            "Description": "Enemies hit by this unit are slowed by 65% for 0.5 seconds."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14880,14 +15488,17 @@ return {
             }
         ]
     },
-    ["Into the Pool"] = {
+    "Into the Pool": {
         "Type": "Single Slow AOE + Passive",
         "Image": "rbxassetid://131726719551115",
         "Rarity": "Nightmare",
         "PlacePrice": 50000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Drowned", "Description": "Attacks slow enemies by 70% for 2 seconds. This unit grabs and instakills 3 enemies that are under 90% Max HP (does 3x its current damage to bosses), 15 second cooldown."},
+        "Passive": {
+            "Name": "Drowned",
+            "Description": "Attacks slow enemies by 70% for 2 seconds. This unit grabs and instakills 3 enemies that are under 90% Max HP (does 3x its current damage to bosses), 15 second cooldown."
+        },
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -14929,14 +15540,17 @@ return {
             }
         ]
     },
-    ["Porcelain Weaver Chica"] = {
+    "Porcelain Weaver Chica": {
         "Type": "Pierce + Summon",
         "Image": "rbxassetid://70660696068882",
         "Rarity": "Nightmare",
         "PlacePrice": 22000,
         "Offset": 0.4,
         "Max": 2,
-        "Passive": {"Name": "Cupcake Dolls", "Description": "Summons Porcelain Cupcake Dolls that deal 10x this units damage every 15 seconds. This unit boosts other summoners on your team by 30%."},
+        "Passive": {
+            "Name": "Cupcake Dolls",
+            "Description": "Summons Porcelain Cupcake Dolls that deal 10x this units damage every 15 seconds. This unit boosts other summoners on your team by 30%."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -14977,14 +15591,17 @@ return {
             }
         ]
     },
-    ["Birthday Bash Bonnie"] = {
+    "Birthday Bash Bonnie": {
         "Type": "Nuke",
         "Image": "rbxassetid://72792573129785",
         "Rarity": "Secret",
         "PlacePrice": 45000,
         "Offset": 1,
         "Max": 1,
-        "Passive": {"Name": "Party Smash", "Description": "When this unit attacks, the affected area leaves a burning pile of candles and cake dealing 40% of its current damage in burn over 3s. Piles lasts for 3s."},
+        "Passive": {
+            "Name": "Party Smash",
+            "Description": "When this unit attacks, the affected area leaves a burning pile of candles and cake dealing 40% of its current damage in burn over 3s. Piles lasts for 3s."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -15025,14 +15642,17 @@ return {
             }
         ]
     },
-    ["Neo Titan Freddy"] = {
+    "Neo Titan Freddy": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://98687996514061",
         "Rarity": "Apex",
         "PlacePrice": 56000,
         "Offset": 0.3,
         "Max": 1,
-        "Passive": {"Name": "Giant Slayer", "Description": "Gains a stacking +25% damage to imps (Cap of 3). Scaling True Stun, 1 = 0.5s. 2 = 1s. 3 = 1.5s. If a boss is in range acts as max scaling."},
+        "Passive": {
+            "Name": "Giant Slayer",
+            "Description": "Gains a stacking +25% damage to imps (Cap of 3). Scaling True Stun, 1 = 0.5s. 2 = 1s. 3 = 1.5s. If a boss is in range acts as max scaling."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -15069,13 +15689,16 @@ return {
             }
         ]
     },
-    ["Painter Puppet"] = {
+    "Painter Puppet": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://74447601469380",
         "Rarity": "Nightmare",
         "PlacePrice": 20000,
         "Max": 2,
-        "Passive": {"Name": "Paint Splatter", "Description": "When this unit attacks, has a 60% chance to apply Slow (58.5% for 1s), Wither (17.5% for 1s), and Anti-Regen (35% for 1.5s) "},
+        "Passive": {
+            "Name": "Paint Splatter",
+            "Description": "When this unit attacks, has a 60% chance to apply Slow (58.5% for 1s), Wither (17.5% for 1s), and Anti-Regen (35% for 1.5s) "
+        },
         "Offset": 0.3,
         "hitboxOffset": {
             "X": 0,
@@ -15131,16 +15754,18 @@ return {
                 "Bleed": 0.65,
                 "BleedTime": 1.5
             }
-
         ]
     },
-    ["Warpseer Mangle"] = {
+    "Warpseer Mangle": {
         "Type": "Nuke",
         "Image": "rbxassetid://134052825970100",
         "Rarity": "Secret",
         "PlacePrice": 25000,
         "Max": 2,
-        "Passive": {"Name": "Witchrot", "Description": "Main attack applies 50% Anti-Regen for 2s. Every 5 seconds the next attack deals an additional 40% damage in Poison over 2s."},
+        "Passive": {
+            "Name": "Witchrot",
+            "Description": "Main attack applies 50% Anti-Regen for 2s. Every 5 seconds the next attack deals an additional 40% damage in Poison over 2s."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -15190,13 +15815,16 @@ return {
             }
         ]
     },
-    ["Glitchtrap"] = {
+    "Glitchtrap": {
         "Type": "Pierce",
         "Image": "rbxassetid://101957224781287",
         "Rarity": "Apex",
         "PlacePrice": 45000,
         "Max": 1,
-        "Passive": {"Name": "Distortion", "Description": "Passively boosts all unit damage by 30%. Auto executes enemies at 20% (8.5% to Bosses/Imps) and attacks apply 10% Wither."},
+        "Passive": {
+            "Name": "Distortion",
+            "Description": "Passively boosts all unit damage by 30%. Auto executes enemies at 20% (8.5% to Bosses/Imps) and attacks apply 10% Wither."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -15209,50 +15837,53 @@ return {
                 "Range": 30,
                 "Damage": 3750,
                 "Cooldown": 0.25,
-                "Wither": 1.10,
-                "ShinyWither": 1.10,
+                "Wither": 1.1,
+                "ShinyWither": 1.1,
                 "WitherTime": 1,
-                "DamageBoost": 1.30
+                "DamageBoost": 1.3
             },
             {
                 "Price": 50000,
                 "Range": 35,
                 "Damage": 5000,
                 "Cooldown": 0.25,
-                "Wither": 1.10,
-                "ShinyWither": 1.10,
+                "Wither": 1.1,
+                "ShinyWither": 1.1,
                 "WitherTime": 1,
-                "DamageBoost": 1.30
+                "DamageBoost": 1.3
             },
             {
                 "Price": 60000,
                 "Range": 40,
                 "Damage": 6250,
                 "Cooldown": 0.25,
-                "Wither": 1.10,
-                "ShinyWither": 1.10,
+                "Wither": 1.1,
+                "ShinyWither": 1.1,
                 "WitherTime": 1,
-                "DamageBoost": 1.30
+                "DamageBoost": 1.3
             },
             {
                 "Price": 70000,
                 "Range": 45,
                 "Damage": 7500,
                 "Cooldown": 0.25,
-                "Wither": 1.10,
-                "ShinyWither": 1.10,
+                "Wither": 1.1,
+                "ShinyWither": 1.1,
                 "WitherTime": 1,
-                "DamageBoost": 1.30
+                "DamageBoost": 1.3
             }
         ]
     },
-    ["The Glitched"] = {
+    "The Glitched": {
         "Type": "Nuke",
         "Image": "rbxassetid://103032877502508",
         "Rarity": "Apex",
         "PlacePrice": 99999,
         "Max": 1,
-        "Passive": {"Name": "Mega Virus", "Description": "Attacks apply Mega Virus marking up to 5 enemies causing 20% Auto Execute. When a marked enemy is hit again, Mega Virus triggers dealing +652% damage, 2.8s True Stun and 45% Auto Execute (15% to Bosses/Imps)."},
+        "Passive": {
+            "Name": "Mega Virus",
+            "Description": "Attacks apply Mega Virus marking up to 5 enemies causing 20% Auto Execute. When a marked enemy is hit again, Mega Virus triggers dealing +652% damage, 2.8s True Stun and 45% Auto Execute (15% to Bosses/Imps)."
+        },
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -15286,5 +15917,4 @@ return {
             }
         ]
     }
-}
 }
