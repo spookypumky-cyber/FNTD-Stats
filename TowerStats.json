@@ -3285,7 +3285,6 @@
             }
         ]
     },
-{
     "Flame Empress Chica": {
         "Type": "Nuke Burn",
         "Image": "rbxassetid://123340650029702",
@@ -3336,8 +3335,7 @@
                 "Cooldown": 1.0
             }
         ]
-    }
-},
+    },
     "Nightmare Mangle": {
         "Type": "AOE Poison",
         "Image": "rbxassetid://18977428026",
